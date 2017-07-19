@@ -19,3 +19,28 @@ https://www.pagedmedia.org/a-book-by-its-cover/
 
 https://gitlab.coko.foundation/julientaq/cabbageTreeMethod
 
+see local version
+
+## Setup
+
+Demo the 16 page template
+
+Explore the file structure
+
+Work with XHTML to start with
+
+Edit the template and add some Mute content http://www.metamute.org/content/proud-to-be-flesh
+
+## Make Book
+
+- paragraph
+
+- book title
+- cover
+- sections
+- images
+- footnotes
+- headers
+
+
+
