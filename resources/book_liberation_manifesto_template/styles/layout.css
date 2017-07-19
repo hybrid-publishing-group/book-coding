@@ -1,0 +1,384 @@
+section[data-type="chapter"] {
+ /* break-before: page; */
+   counter-reset: footnote;
+}
+
+section[data-type="chaptertitle"] {
+ break-before: right;
+}
+
+section[data-type="chapter"], {
+ break-after: always;
+}
+
+h2 {
+  /* break-before: page; */
+}
+
+/* for the running headers style*/
+
+.dup {
+  -epubx-flow-into: header;
+  -epubx-flow-options: exclusive static last;
+  text-transform: none;
+  font-family: "Gentium Basic", serif;
+  font-weight: normal;
+  font-style: italic;
+  /* text-align: right; */
+  /* text-transform: uppercase !important; */
+  font-size: 9pt;
+  letter-spacing: 0.2pt;
+  word-spacing: 1px;
+  margin: 0;
+  padding: 0;
+}
+
+.booktitle {
+  -epubx-flow-into: booktitle;
+  -epubx-flow-options: exclusive static last;
+  text-transform: none;
+  font-family: "Gentium Basic", serif;
+  font-weight: normal;
+  font-style: italic;
+  /* text-transform: uppercase !important; */
+  font-size: 9pt;
+  letter-spacing: 0.2pt;
+  word-spacing: 1px;
+}
+
+/* styling pieces */
+
+.pagenumber {
+  content: counter(page);
+  height: 13pt;
+  position: absolute;
+  bottom: 8mm;
+  text-align: center;
+  font-family: "Gentium Basic", serif;
+  font-size: 9pt;
+  font-style: italic;
+}
+
+/* running headers locations */
+
+.header {
+  height: 13pt;
+  position: absolute;
+  top: 9mm;
+}
+
+/* flows */
+
+[data-type="chaptertitle"] {
+  -epubx-flow-into: chaptertitle;
+}
+
+[data-type="chapter"] {
+  -epubx-flow-into: chapter;
+}
+
+@-epubx-flow chapter {
+  -epubx-flow-consume: all;
+}
+
+[data-type="titlepage"] {
+  -epubx-flow-into: titlepage;
+}
+[data-type="titlepage2"] {
+  -epubx-flow-into: titlepage2;
+}
+
+[data-type="colophon"] {
+  -epubx-flow-into: colophon;
+}
+
+[data-type="toc"] {
+  -epubx-flow-into: toc;
+}
+
+.logo {
+  -epubx-flow-into: logo;
+}
+
+@-epubx-page-master drunk-poem-page {
+  -epubx-page: 85;
+  background: url("../images/4-e.jpg");
+  background-size: cover;
+}
+
+@-epubx-page-master drunk-poem-page {
+  -epubx-page: 90;
+  background: url("../images/5-e.png");
+  background-size: cover;
+}
+
+@-epubx-page-master drunk-poem-page {
+  -epubx-page: 251;
+  background: url("../images/5-e.png");
+  background-size: cover;
+}
+
+@-epubx-page-master drunk-poem-page {
+  -epubx-page: 246;
+  background: url("../images/4-e.jpg");
+  background-size: cover;
+}
+
+@-epubx-page-master drunk-poem-page {
+  -epubx-page: 123;
+  background: url("../images/drunk_xxx.jpg");
+  background-size: cover;
+}
+
+@-epubx-page-master cover-hbs-page {
+  -epubx-page: 155;
+  background: url("../images/hbs-cover.jpg");
+  background-size: cover;
+}
+
+
+/* pages layout */
+
+/* titlepage */
+/* remove cover and p2
+@-epubx-page-master first-page-cover {
+  -epubx-page: 1;
+  background: url("../images/cover.jpg");
+  background-size: cover;
+}
+
+@-epubx-page-master second-page-backcover {
+  -epubx-page: 2;
+  background-size: cover;
+}
+ */
+
+@-epubx-page-master pre-toc {
+  -epubx-page: 4;
+  background-size: cover;
+}
+
+@-epubx-page-master pre-chpt1 {
+  -epubx-page: 6;
+  background-size: cover;
+}
+
+@-epubx-page-master pre-chptx {
+  -epubx-page: 102;
+  background-size: cover;
+}
+
+@-epubx-page-master pre-chptx {
+  -epubx-page: 118;
+  background-size: cover;
+}
+
+@-epubx-page-master pre-chptx {
+  -epubx-page: 150;
+  background-size: cover;
+}
+
+@-epubx-page-master pre-chptx {
+  -epubx-page: 154;
+  background-size: cover;
+}
+
+@-epubx-page-master pre-chptx {
+  -epubx-page: 156;
+  background-size: cover;
+}
+
+@-epubx-page-master pre-chptx {
+  -epubx-page: 160;
+  background-size: cover;
+}
+
+@-epubx-page-master pre-chptx {
+  -epubx-page: 162;
+  background-size: cover;
+}
+
+@-epubx-page-master pre-chptx {
+  -epubx-page: 186;
+  background-size: cover;
+}
+
+@-epubx-page-master pre-chptx {
+  -epubx-page: 196;
+  background-size: cover;
+}
+
+@-epubx-page-master pre-chptx {
+  -epubx-page: 234;
+  background-size: cover;
+}
+
+@-epubx-page-master pre-chptx {
+  -epubx-page: 264;
+  background-size: cover;
+}
+
+@-epubx-page-master pre-chptx {
+  -epubx-page: 316;
+  background-size: cover;
+}
+
+@-epubx-page-master titlepagepage {
+  @-epubx-partition body {
+    -epubx-flow-from: titlepage;
+    -epubx-required: true;
+    left: -epubx-expr( page-number % 2==1 ? 20mm: 15mm);
+    right: -epubx-expr( page-number % 2==0 ? 20mm: 15mm);
+    top: 18mm;
+    bottom: 24mm;
+  }
+@-epubx-partition logos {
+    -epubx-flow-from: logo;
+    -epubx-required: true;
+    left: -epubx-expr( page-number % 2==1 ? 20mm: 15mm);
+    right: -epubx-expr( page-number % 2==0 ? 20mm: 15mm);
+    /* height: 7em; */
+    bottom: 24mm;
+  }
+}
+
+@-epubx-page-master titlepage2page {
+  @-epubx-partition body {
+    -epubx-flow-from: titlepage2;
+    -epubx-required: true;
+    left: -epubx-expr( page-number % 2==1 ? 20mm: 15mm);
+    right: -epubx-expr( page-number % 2==0 ? 20mm: 15mm);
+    top: 18mm;
+    bottom: 24mm;
+  }
+@-epubx-partition logos2 {
+    -epubx-flow-from: logo2;
+    -epubx-required: true;
+    left: -epubx-expr( page-number % 2==1 ? 20mm: 15mm);
+    right: -epubx-expr( page-number % 2==0 ? 20mm: 15mm);
+    /* height: 7em; */
+    bottom: 24mm;
+  }
+}
+
+/* toc */
+
+@-epubx-page-master toc {
+  -epubx-utilization: 0;
+  @-epubx-partition toc {
+    -epubx-flow-from: toc;
+    -epubx-required: true;
+    left: -epubx-expr( page-number % 2==1 ? 12mm: 15mm);
+    right: -epubx-expr( page-number % 2==0 ? 15mm: 15mm);
+    top: 15mm;
+    bottom: 15mm;
+  }
+}
+
+/* title for chapters */
+
+@-epubx-page-master chaptertitle {
+  -epubx-utilization: 0;
+  @-epubx-partition chaptertitle {
+    -epubx-flow-from: chaptertitle;
+    -epubx-required: true;
+    left: -epubx-expr( page-number % 2==1 ? 20mm: 15mm);
+    right: -epubx-expr( page-number % 2==0 ? 20mm: 15mm);
+    top: 15mm;
+    bottom: 15mm;
+  }
+}
+
+/* colophon */
+
+@-epubx-page-master colophon {
+  -epubx-utilization: 0;
+  @-epubx-partition colophon {
+    -epubx-flow-from: colophon;
+    -epubx-required: true;
+    left: -epubx-expr( page-number % 2==1 ? 20mm: 15mm);
+    right: -epubx-expr( page-number % 2==0 ? 20mm: 15mm);
+    top: 24mm;
+    bottom: 20mm;
+  }
+}
+
+/* create the layout of the body */
+
+@-epubx-page-master chapter {
+  -epubx-utilization: 0;
+
+/* guide - turn off at end */
+
+  /*  @-epubx-partition grid {
+      position: absolute;
+      top: 26mm;
+      right: 20mm;
+      left: 15mm;
+      bottom: 26mm;
+      border: 1pt solid magenta;
+  }  */
+
+  @-epubx-partition body {
+    -epubx-flow-from: chapter;
+    -epubx-required: true;
+    -epubx-snap-height: 13.5pt;
+    left: -epubx-expr( page-number % 2==1 ? 20mm: 15mm);
+    right: -epubx-expr( page-number % 2==0 ? 20mm: 15mm);
+    top: 15mm;
+    bottom: 15mm;
+    }
+  /* page numbering left */
+  @-epubx-partition class(pagenumber) {
+    -epubx-enabled: -epubx-expr( page-number % 2==0 ? 'true': 'false');
+    left: 15mm;
+  }
+  /* page numbering right */
+  @-epubx-partition class(pagenumber) {
+    -epubx-enabled: -epubx-expr( page-number % 2==1 ? 'true': 'false');
+    right: 15mm;
+  }
+
+  /* horizontal running header */
+ @-epubx-partition class(header) {
+    -epubx-flow-from: header;
+    -epubx-enabled: -epubx-expr( page-number % 2==0 ? 'true': 'false');
+    left: 15mm;
+  }
+  /* page numbering right */
+ @-epubx-partition class(header) {
+    -epubx-flow-from: booktitle;
+    -epubx-enabled: -epubx-expr( page-number % 2==1 ? 'true': 'false');
+    right: 15mm;
+  }
+
+  /* vertical ok */
+  /*   @-epubx-partition headervertical {
+    -epubx-flow-from: header;
+    -epubx-enabled: -epubx-expr( page-number % 2== 1 ? 1 : 0);
+    transform: rotate(90deg) translateX(25pt) translateY(-705px);
+    transform-origin: 0 100%;
+    right: 0;
+    top: 0;
+    width: 200mm;
+  } */
+
+    /*   @-epubx-partition booktitleVertical {
+    -epubx-flow-from: booktitle;
+    -epubx-enabled: -epubx-expr( page-number % 2==0 ? 1 : 0);
+    width: 200mm;
+    transform: rotate(90deg) translateX(25pt) translateY(-239pt);
+    transform-origin: 0 100%;
+    right: 0;
+    top: 0;
+    } */
+
+/* guide - turn off at end */
+
+/* baseline test
+    background: linear-gradient(white 11pt , cyan 1pt);
+    background-size: 100% 13.5pt;
+    background-position: 0 13.5pt;
+    */
+
+}

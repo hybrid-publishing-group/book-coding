@@ -1,0 +1,1104 @@
+@font-face {
+    font-family : "Gentium Basic", serif;
+    font-weight : normal;
+    font-style: normal;
+    src : url(../fonts/GentiumBasic.otf);
+}
+@font-face {
+    font-family : "Gentium Basic", serif;
+    font-weight : bold;
+    font-style: normal;
+    src : url(../fonts/GentiumBasic-Bold.otf);
+}
+@font-face {
+    font-family : "Gentium Basic", serif;
+    font-weight : normal;
+    font-style: italic;
+    src : url(../fonts/GentiumBasic-Italic.otf);
+}
+@font-face {
+    font-family : "Gentium Basic", serif;
+    font-weight : bold;
+    font-style: italic;
+    src : url(../fonts/GentiumBasic-BoldItalic.otf);
+}
+@font-face {
+    font-family : "Gentium Basic", serif;
+    font-weight : normal;
+    font-style: normal;
+    src : url(../fonts/GentiumBookBasic.otf);
+}
+@font-face {
+    font-family : "Montserrat Regular", sans-serif;
+    font-weight : normal;
+    font-style: normal;
+    src : url(../fonts/Montserrat-Regular.otf);
+}
+
+h3.titlepageSub {
+  color: black;
+  font-size: 14pt;
+  font-weight: normal;
+  text-align: center;
+  text-transform: uppercase;
+  line-height: 20pt;
+  margin-bottom: 30pt;
+}
+
+p.titlepagePar {
+  font-family: "Gentium Basic", serif;
+}
+
+p.titlepageSub {
+  color: black;
+  font-size: 14pt;
+  font-weight: normal;
+  text-align: center;
+  text-transform: uppercase;
+  line-height: 20pt;
+  margin-bottom: 30pt;
+}
+
+p.kudalogo {
+  font-family: "Montserrat Regular", sans-serif !important;
+  color: black;
+  font-size: 14pt;
+  text-align: center;
+  font-weight: normal;
+  text-indent: 0em;
+}
+p.kudalogo2 {
+  font-family: "Montserrat Regular", sans-serif !important;
+  color: black;
+  font-size: 14pt;
+  text-align: left;
+  font-weight: normal;
+}
+p.kudalogo3 {
+  font-family: "Montserrat Regular", sans-serif !important;
+  color: black;
+  font-size: 14pt;
+  text-align: center;
+  font-weight: normal;
+  text-indent: 0em;
+  margin-top: 20em;
+}
+#ReproducingAutonomy {
+  font-size: 26pt !important;
+  margin-bottom: 10pt !important;
+  margin-top: 0pt;
+}
+#ack {
+  margin-bottom: 10pt !important;
+  margin-top: 0pt;
+}
+
+.logo img {
+  width: 12mm;
+  align: center;
+  margin-bottom: 6pt;
+}
+
+.logo p {
+ color: black;
+ font-family: "Gentium Basic", serif;
+  font-size: 9pt;
+  font-weight: 300;
+  margin-top: 24pt;
+  text-align: center;
+
+}
+p.kudaversion {
+ color: black;
+ font-family: "Gentium Basic", serif;
+  font-size: 9pt;
+  font-weight: 300;
+  margin-top: 1pt;
+  text-align: center;
+  text-indent: 0em;
+
+}
+html,
+body,
+div,
+span,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+b,
+strong,
+blockquote,
+pre,
+abbr,
+address,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+samp,
+small,
+sub,
+sup,
+var,
+i,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+@page {
+  size: 152mm 229mm;
+  margin-top: 15mm;
+  margin-bottom: 15mm;
+}
+
+html {
+  font-family: "Gentium Basic", serif;
+  font-weight: normal;
+  font-size: 10.75pt;
+  color: black;
+  hyphens: auto;
+}
+
+p {
+  font-family: "Gentium Basic", serif;
+  font-size: 10.75pt;
+  line-height: 13.5pt;
+  text-align: left;
+  margin-bottom: 0pt;
+  letter-spacing: 0.2pt;
+  word-spacing: 0.7pt;
+  orphans: 2;
+  widows: 2;
+}
+
+p + p {
+  text-indent: 1.5em;
+  margin-top: 0 }
+
+p:first-of-type {
+  text-indent: 0;
+}
+
+p.first { text-indent: 0em; margin-top: 0.0em }
+p.ind0 { text-indent: 1.5em; margin-top: 0.0em }
+p.ind1 { text-indent: 1em; margin-top: 0.0em }
+p.ind2 { text-indent: 3em; margin-top: 0.0em }
+p.ind3 { text-indent: 12em; margin-top: 0.0em }
+p.ind4 { text-indent: 24em; margin-top: 0.0em }
+p.ind5 { text-indent: 1.5em; margin-top: 0.83em }
+p.smltb { text-indent: 0; margin-top: 0.0em }
+p.stb { text-indent: 0; margin-top: 0.83em }
+p.mtb { text-indent: 0; margin-top: 2.17em }
+p.ltb { text-indent: 0; margin-top: 3.08em }
+p.divide { text-align: center; margin-bottom: 0.83em; margin-top: 0.83em}
+p.divide2 { text-align: center; margin-bottom: 0.83em; margin-top: 15em}
+p.author {
+  color: black;
+  font-size: 14pt;
+  font-weight: normal;
+  text-align: center;
+  text-transform: uppercase;
+  line-height: 20pt;
+  margin-bottom: 30pt;
+}
+p.author2 {
+  color: black;
+  font-size: 86pt;
+  font-weight: normal;
+  text-align: left;
+  text-transform: none;
+  line-height: 76pt;
+  margin-bottom: 30pt;
+  text-indent: 0;
+  margin-top: .5em
+}
+
+p.author3 {
+  color: black;
+  font-size: 40pt;
+  font-weight: normal;
+  text-align: left;
+  text-transform: none;
+  line-height: 48pt;
+  margin-bottom: 10pt;
+  text-indent: 0;
+  margin-top: .5em;
+  border: 1px solid black;
+}
+
+p.poemtitle {
+  color: black;
+  font-size: 48pt;
+  font-weight: normal;;
+  text-align: left;
+  text-transform: none;;
+  line-height: 48pt;
+  margin-bottom: 10pt;
+  text-indent: 0;
+  margin-top: 0em
+}
+
+p.track {
+  letter-spacing: 0.1pt;
+  word-spacing: 0.1pt;
+  orphans: 2;
+  widows: 2;
+}
+
+p.quote { text-indent: 0em; margin-left: 1.5em; margin-top: 1.0em; margin-bottom: 1.00em }
+p.quotewithatt { margin-left: 1.5em; margin-top: 1.0em; margin-bottom: 0em }
+p.quoteatt { text-indent: 1.5em; margin-left: 1.5em; margin-top: 0em; margin-bottom: 1.00em }
+p.quotetrack { text-indent: 0em; margin-left: 1.5em; margin-top: 1.0em; margin-bottom: 1.00em; letter-spacing: 0.1pt;
+word-spacing: 0.1pt;
+orphans: 2;
+widows: 2; }
+
+
+@media all {
+	.page-break	{ display: none; }
+}
+
+@media print {
+	.page-break	{ display: block; page-break-before: always; }
+}
+
+p.copyright {
+  font-size: 9.75pt;
+  text-align: left;
+}
+
+p strong,
+p .bold,
+p .Bold,
+p b,
+li strong,
+li .bold,
+li .Bold,
+li b {
+  font-family: "Gentium Basic", serif;
+  font-style: bold;
+}
+
+em,
+.italic {
+  font-family: inherit;
+  font-style: italic;
+  font-weight: 400;
+}
+
+pre {
+  max-width: 80.1266666667mm;
+}
+
+a {
+  color: black;
+  font-family: "Gentium Basic", serif;
+  font-weight: 400;
+  text-decoration: none;
+  font-style: none;
+  text-decoration: none;
+}
+
+a:hover {
+  color: black;
+}
+
+strong em {
+  font-weight: bold;
+  font-style: italic;
+}
+
+var {
+  font-family: "Gentium Basic", serif;
+  font-weight: normal;
+}
+
+var em,
+var .Italic {
+  font-weight: normal;
+  font-style: normal;
+}
+
+sup {
+  font-size: 9.75pt;
+  font-weight: inherit;
+  position: relative;
+  top: -3px;
+  vertical-align: baseline;
+}
+
+.references p {
+  line-height: 10.8pt;
+  font-size: 9pt;
+}
+
+blockquote {
+  position: relative;
+  font-family: "Gentium Basic", serif;
+  font-size: 9.75pt;
+  vertical-align: baseline;
+  margin-top: 9pt;
+  margin-bottom: 9pt;
+  margin-left: 1pc;
+  margin-right: 0pc;
+}
+
+blockquote:before {
+  font-family: "Gentium Basic", serif;
+  content: '';
+  font-size: 3em;
+  top: -0.2pc;
+  left: -1.2pc;
+  position: absolute;
+  color: #7089ab;
+  opacity: 0.6;
+}
+
+blockquote:after {
+  font-family: "Gentium Basic", serif;
+  content: '';
+  font-size: 3em;
+  bottom: -15pt;
+  right: -0.8pc;
+  position: absolute;
+  color: #7089ab;
+  opacity: 0.6;
+}
+
+blockquote p {
+  font-family: inherit;
+  text-align: left;
+  font-style: normal;
+}
+
+blockquote  p.att { text-align: right; }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Gentium Basic", serif;
+  margin-top: 3em;
+  color: black;
+  font-weight: normal;
+}
+
+h1 {
+  font-family: "Gentium Basic", serif;
+  font-weight: normal;
+  font-size: 26pt;
+  color: black;
+  margin-bottom: 2em;
+  margin-top: 2em;
+  page-break-inside: avoid;
+  page-break-after: avoid;
+  text-align: center;
+  text-transform: uppercase;
+  adobe-hyphenate: none;
+  -webkit-hyphens: none;
+  -epub-hyphens: none;
+  hyphens: none;
+  letter-spacing: 0pt;
+word-spacing: 1px;
+}
+
+h1.hbs-title {
+  font-family: "Gentium Basic", serif;
+  font-weight: normal;
+  font-size: 26pt;
+  color: black;
+  margin-bottom: 2em;
+  margin-top: 0em;
+  page-break-inside: avoid;
+  page-break-after: avoid;
+  text-align: center;
+  text-transform: uppercase;
+  adobe-hyphenate: none;
+  -webkit-hyphens: none;
+  -epub-hyphens: none;
+  hyphens: none;
+  letter-spacing: 0pt;
+word-spacing: 1px;
+}
+
+h2 {
+  font-size: 14pt;
+  text-transform: none;
+  font-weight: normal;
+  margin: 0 0 2em 0;
+  page-break-inside: avoid;
+  page-break-after: avoid;
+}
+
+h3 {
+  font-family: "Gentium Basic", serif;
+  font-size: 12pt;
+  margin-top: 18pt;
+  page-break-inside: avoid;
+  page-break-after: avoid;
+  font-weight: bold;
+  margin-bottom: 12pt;
+  letter-spacing: 0pt;
+  word-spacing: 1px;
+}
+
+h4 {
+  font-size: 10.75pt;
+  margin-top: 25pt;
+  margin-bottom: 12pt;
+  font-weight: bold;
+  page-break-inside: avoid;
+  page-break-after: avoid;
+}
+
+h5 {
+  font-family: "Gentium Basic", serif;
+  font-size: 9pt;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-weight: 500;
+  color: black;
+  page-break-inside: avoid;
+  page-break-after: avoid;
+}
+
+body {
+  counter-reset: chapter;
+}
+
+.one ol li {
+  list-style-type: decimal;
+}
+
+
+h1:before {
+  display: block;
+  text-transform: uppercase;
+  counter-increment: chapter;
+  font-size: 10pt;
+  margin-bottom: 13pt;
+  letter-spacing: 1pt;
+}
+/*
+.footnotes ol {
+  font-size: 9pt;
+  line-height: 10.8pt;
+  list-style-position: outside;
+}
+
+.footnotes ol li p {
+  text-indent: 0;
+  font-size: 9pt;
+  line-height: 10.75pt;
+  word-wrap: break-word;
+}
+
+.footnotes ol li p a {
+  text-wrap: word-break;
+}
+*/
+
+.footnote {
+    float: footnote;
+    font-size: 9pt;
+    counter-increment: footnote;
+    text-indent: 0;
+    line-height: 10.75pt;
+    word-wrap: break-word;
+}
+
+.footnote::footnote-marker  {
+    content: counter(footnote)'. ';
+    font-size: 9pt;
+    vertical-align: none;
+    margin-right: 0pc;
+
+}
+
+
+.footnote::footnote-call {
+    content: counter(footnote);
+    font-size: 9pt;
+    vertical-align: super;
+    display: inline;
+    line-height: 1;
+}
+/*
+li[id*="fn"] {
+  color: black;
+  text-indent: 0;
+  font-size: 9.75pt;
+  margin-left: 1.3pc;
+}
+
+a.footnoteRef {
+  border-bottom: 0;
+  line-height: 0;
+  background: none;
+  display: inline;
+}
+*/
+
+figure {
+  text-indent: 0;
+  width: 100%;
+  text-align: center;
+  margin-top: 0pt;
+  margin-bottom: 5pt;
+}
+
+figure img {
+  display: block;
+  width: 100%;
+  height: auto;
+  margin: auto;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+figure figcaption {
+  font-family: "Gentium Basic", serif;
+  margin-top: 5pt;
+  margin-bottom: 0pt;
+  font-style: normal;
+  color: black;
+  text-indent: 0;
+  text-align: center;
+  font-size: 9pt;
+  line-height: 11pt;
+  font-style: none;
+  letter-spacing: 0pt;
+  word-spacing: 1px;
+}
+
+.icon {
+  margin-right: 1em;
+  width: 20%;
+  float: left;
+}
+
+.icon img {
+  width: 100%;
+  margin-top: 1em;
+}
+
+.iconright {
+  margin-left: 1em;
+  width: 20%;
+  float: right;
+}
+
+.iconright img {
+  width: 100%;
+  margin-top: 1em;
+}
+
+ul {
+  list-style-position: outside;
+  list-style-type: none;
+  margin-bottom: 9pt;
+}
+
+ul li {
+  margin-left: 3pc;
+  text-indent: -1pc;
+}
+
+ul li:before {
+  content: "–";
+  color: #435772;
+  margin-left: 0;
+  margin-right: 0.1pc;
+  display: inline;
+  font-size: 12px;
+  float: left;
+}
+
+ul li p + p {
+  text-indent: 0;
+}
+
+#page-navigation ol {
+    margin: 0;
+    padding: 0;
+    list-style-type: decimal;
+    float: left;
+}
+
+ol {
+  counter-reset: ul;
+  list-style-position: outside;
+  list-style-type: none;
+  margin-bottom: 9pt;
+}
+
+ol li {
+  counter-increment: ul;
+  margin-left: 1.6pc;
+  text-indent: -1.6pc;
+}
+/*
+ol li:before {
+  content: counter(ul);
+  color: magenta;
+  margin-left: 0;
+  margin-right: 0pt;
+  display: inline-block;
+  font-size: 12px;
+  float: left;
+}
+*/
+ol li h5 {
+  display: inline;
+  margin-left: 1pc;
+}
+
+ol li p + p {
+  text-indent: 0;
+  text-align: right;
+  margin-bottom: 12pt;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+table {
+  margin: 0 auto;
+  width: 85% !important;
+  font-family: "Gentium Basic", serif;
+  background-size: 9pt;
+  page-break-inside: avoid;
+  margin-top: 9pt;
+  margin-bottom: 18pt;
+  border-collapse: collapse;
+  border-bottom: 1pt solid #435772;
+  border-left: 0;
+  border-right: 0;
+  text-align: left;
+  font-size: 9pt;
+}
+
+table caption {
+  border-top: 1pt solid #435772;
+  border-bottom: 1pt solid #435772;
+  padding: 1em;
+  text-align: left;
+  margin: 0 auto;
+}
+
+table caption:before {
+  counter-increment: table;
+  content: "Table " counter(table);
+  margin-right: 1em;
+  font-style: italic;
+}
+
+table td {
+  width: auto;
+  border-left: 0;
+  border-right: 0;
+  text-align: right;
+}
+
+table td:last-of-type {
+  padding-right: 1em;
+}
+
+table p,
+table ul,
+table li,
+table ol {
+  font-size: 9pt;
+  margin: 0;
+  font-family: "Gentium Basic", serif;
+  text-align: left;
+  text-indent: 0;
+}
+
+table ol,
+table ul {
+  list-style-position: inside;
+}
+
+tr:first-of-type th,
+tr:first-of-type td {
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+
+tr:last-of-type td {
+  padding-bottom: 0.6em;
+}
+
+table + p {
+  text-indent: 0;
+}
+
+th {
+  border-left: 0;
+  border-right: 0;
+  padding: 1em;
+  color: #435772;
+  background-color: #435772;
+  font-style: italic;
+  font-weight: normal;
+}
+
+tr:first-of-type {
+  border-bottom: 1pt solid #435772;
+}
+
+tr:first-of-type td {
+  font-weight: normal;
+  font-style: italic;
+}
+
+tr.head + tr td {
+  padding-top: 0.8em;
+}
+
+table + p {
+  margin: 0 auto;
+  width: 85% !important;
+  margin-top: 0;
+}
+
+table + p + p {
+  margin-top: 18pt;
+}
+
+.pagination-header:nth-of-type(odd) {
+  text-align: right;
+}
+
+.pagination-header:nth-of-type(even) {
+  text-align: left;
+}
+
+.pagination-header-chapter {
+  font-family: "Gentium Basic", serif;
+  text-transform: lowercase;
+  letter-spacing: 1.5pt;
+}
+
+.pagination-header-chapter em,
+.pagination-header-chapter .italic,
+.pagination-header-chapter .Italic {
+  font-family: "Gentium Basic", serif;
+}
+
+.pagination-header-section {
+  color: black;
+  font-family: "Gentium Basic", serif;
+  font-size: 9pt;
+  text-transform: lowercase;
+  letter-spacing: 1.5pt;
+}
+
+.pagination-page {
+  font-family: "Gentium Basic", serif;
+  font-size: 9pt;
+}
+
+.pagination-page:nth-child(even) .pagination-header {
+  font-size: 9pt;
+  right: 5.3pc;
+  left: 5.3pc;
+  top: 0.7in;
+  text-align: left;
+  margin-left: 0.6in;
+}
+
+.pagination-page:nth-child(even) .pagination-pagenumber {
+  font-size: 9pt;
+  right: 5.3pc;
+  left: 5.3pc;
+  text-align: left;
+  top: 0.7in;
+}
+
+.pagination-page:nth-child(odd) .pagination-header {
+  font-size: 9pt;
+  right: 5.3pc;
+  left: 5.3pc;
+  top: 0.7in;
+  text-align: right;
+  margin-right: 0.6in;
+}
+
+.pagination-page:nth-child(odd) .pagination-pagenumber {
+  font-size: 9pt;
+  right: 5.3pc;
+  left: 5.3pc;
+  text-align: right;
+  top: 0.7in;
+}
+
+.pagination-chapter .pagination-page:first-of-type .pagination-header {
+  display: none;
+}
+
+.pagination-chapter .pagination-page:first-of-type .pagination-pagenumber {
+  display: none;
+}
+
+.pagination-empty .pagination-header-chapter,
+.pagination-empty .pagination-header-section {
+  display: none;
+}
+
+.pagination-empty .pagination-pagenumber {
+  display: none;
+}
+
+section[data-type="toc"] h1.toc {
+  font-size: 26pt;
+  margin-top: 2em;
+  margin-bottom: 1.5em;
+}
+
+section[data-type="toc"] h4 {
+  color: black;
+  margin-top: 1.2em;
+  margin-bottom: 0em;
+  letter-spacing: 0.2pt;
+word-spacing: 1px;
+}
+
+section[data-type="toc"] ul li {
+  margin-top: 0.3em;
+  color: black;
+  margin-left: 0;
+  margin-left: 0;
+  text-indent: 0;
+  letter-spacing: 0.2pt;
+word-spacing: 1px;
+}
+
+section[data-type="toc"] ul li p {
+  margin-left: 0;
+  text-indent: 0;
+}
+
+section[data-type="toc"] ul li:before {
+  content: "";
+}
+
+section[data-type="toc"] a {
+  color: black;
+  font-weight: 300;
+  border-bottom: 0px solid transparent;
+  background: none;
+  text-shadow: none;
+  font-family: "Gentium Basic", serif;
+}
+
+section[data-type="toc"] a:after {
+  content: "123";
+  font-style: normal;
+  font-family: "Gentium Basic", serif;
+  margin-left: 10em;
+  content: target-counter(attr(href, url), page);
+  display: inline-block;
+  float: right;
+}
+
+[data-name="cabbagetree"] {
+  width: 117%;
+  margin-left: -2em;
+  margin-bottom: 23pt;
+}
+
+[data-name="cyclesOfCtm"] {
+  width: 50%;
+  height: 50%;
+  text-align: center;
+  margin-left: 0;
+}
+
+[data-name="bookintro1"] {
+  margin-bottom: 12pt;
+}
+
+[data-name="bookintro2"] {
+  margin-bottom: 22pt;
+}
+
+[data-name="designsessions_colour_big"] {
+  width: 80%;
+  text-align: center;
+  margin-left: 10%;
+}
+
+[data-name="1phase_colour_big"] {
+  width: 80%;
+  text-align: center;
+  margin-left: 10%;
+}
+
+[data-name="2phase_colour_icon"] {
+  width: 110pt !important;
+  text-align: center;
+  margin: 0 !important;
+}
+
+[data-name="mute-logo"] {
+  width: auto;
+  text-align: center;
+  margin: 0;
+  margin-right: 0em;
+  float: centered;
+}
+
+[data-name="mute-logo2"] {
+  width: auto;
+  text-align: center;
+  margin: 0;
+  margin-right: 1em;
+  float: centered;
+}
+
+[data-name="cokoflow_colour_big"] {
+  break-after: page;
+  text-align: center;
+  margin: 0;
+  transform: rotate(90deg) translateX(160pt) scale(1.7);
+}
+
+[data-name="cokoflow_colour_big"] figcaption {
+  transform: scale(0.6);
+}
+
+[data-name="cokoflow_lines_big"] {
+  break-after: page;
+  text-align: center;
+  margin: 0;
+  transform: rotate(90deg) translateX(136pt) scale(1.6);
+}
+
+[data-name="cokoflow_lines_big"] figcaption {
+  transform: scale(0.6);
+}
+
+[data-name="cabbage-tree"] {
+  width: 110pt !important;
+  text-align: center;
+  margin: 0 !important;
+  margin-right: 1em;
+}
+
+[data-name="adoption_lines_big"] {
+  width: 90% !important;
+  text-align: center;
+  margin: 0 !important;
+  margin-left: 1em;
+}
+
+[data-name="adoption_colour_big"] {
+  width: 70% !important;
+  text-align: center;
+  margin: .5em !important;
+  margin-left: 4.5em;
+}
+
+[data-name="adoption_colour_big6"] {
+  width: 75% !important;
+  text-align: center;
+  margin: .5em !important;
+  margin-left: 4.5em;
+}
+[data-name="adoption_colour_big7"] {
+  width: 90% !important;
+  text-align: center;
+  margin: 1em !important;
+  margin-left: 1.5em;
+}
+
+[data-name="adoption_colour_big5"] {
+  width: 50% !important;
+  text-align: center;
+  margin: .5em !important;
+  margin-left: 7em;
+}
+
+[data-name="einhundert"] {
+  width: 100% !important;
+  text-align: center;
+  margin-top: 1em !important;
+  margin-left: 0em;
+}
+
+[data-name="zweihundert"] {
+  width: 100% !important;
+  text-align: center;
+  margin-top: 3em !important;
+  margin-left: 0em;
+}
+
+[data-name="siebzig"] {
+  width: 70%;
+  text-align: center;
+}
+
+h2 + p {
+  margin-top: -5pt;
+}
+
+[data-name="2phase_lines_icon"] {
+  width: 80pt !important;
+  text-align: center;
+  margin: 0 !important;
+}
