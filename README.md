@@ -32,7 +32,7 @@ HTML learning the basics - https://www.w3schools.com/html/html_basic.asp
 
 CSS learning the basics - https://www.w3schools.com/css/default.asp
 
-W3.CSS (Bootstrtap alt)  https://www.w3schools.com/w3css/default.asp
+W3.CSS (Bootstrap alt)  https://www.w3schools.com/w3css/default.asp
 
 ## Setup
 
