@@ -6,14 +6,14 @@ Each class sits a seperate module, so you can attend single classes.
 ## Session Outline 19.7.17
 
 - class objective: 
--- make a PDF book for A6 pamphlet (self covers), impositioned on A4
--- use XHTML/CSS template to lear book coding basics
--- use Vivliostyle in-browser PDF rendering
+    - make a PDF book for A6 pamphlet (self covers), impositioned on A4
+    - use XHTML/CSS template to learn book coding basics
+    - use Vivliostyle in-browser PDF rendering
 - course objective: 
--- make PDF book, eBook, Bootstrap/ and GitHub-pages web book
--- use GitHub as collaborative workspace
--- metadata
--- book design
+    - make PDF book, eBook, Bootstrap alternative W3.CSS and GitHub-pages web book
+    - use GitHub as collaborative workspace
+    - metadata
+    - book design
 - class resources: XHTML/CSS template download, Chrome browser, Vivliostyle, Transpect, Atom text editor, GitHub
 
 ää Links
@@ -31,6 +31,8 @@ https://gitlab.coko.foundation/julientaq/cabbageTreeMethod
 HTML learning the basics - https://www.w3schools.com/html/html_basic.asp
 
 CSS learning the basics - https://www.w3schools.com/css/default.asp
+
+W3.CSS (Bootstrtap alt)  https://www.w3schools.com/w3css/default.asp
 
 ## Setup
 
