@@ -16,7 +16,7 @@ Each class sits a seperate module, so you can attend single classes.
     - book design
 - class resources: XHTML/CSS template download, Chrome browser, Vivliostyle, Transpect, Atom text editor, GitHub
 
-ää Links
+## Links
 
 Vivliostyle - https://github.com/vivliostyle/vivliostyle
 
