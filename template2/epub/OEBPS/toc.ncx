@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ncx xmlns="http://www.daisy.org/z3986/2005/ncx/"
+     xmlns:xlink="http://www.w3.org/1999/xlink"
+     version="2005-1"
+     xml:lang="en-US">
+    <head>
+      <meta name="dtb:uid" content="89392383923"/>
+    </head>
+    <docTitle>
+      <text>Mustertitel</text>
+    </docTitle>
+    <navMap>
+      <navPoint id="i1" class="h1" playOrder="1">
+        <navLabel>
+            <text>Abstract</text>
+        </navLabel>
+        <content src="text/template2_000107.xhtml#d1001e107"/>
+      </navPoint>
+      <navPoint id="i2" class="h1" playOrder="2">
+        <navLabel>
+            <text>1. Introduction</text>
+        </navLabel>
+        <content src="text/template2_000119.xhtml#d1001e119"/>
+      </navPoint>
+      <navPoint id="i3" class="h1" playOrder="3">
+        <navLabel>
+            <text>2. Broken Workflows</text>
+        </navLabel>
+        <content src="text/template2_000153.xhtml#d1001e153"/>
+      </navPoint>
+      <navPoint id="i4" class="h1" playOrder="4">
+        <navLabel>
+            <text>References:</text>
+        </navLabel>
+        <content src="text/template2_000195.xhtml#d1001e195"/>
+      </navPoint>
+      <navPoint id="i5" class="h1" playOrder="5">
+        <navLabel>
+            <text>Acknowledgements</text>
+        </navLabel>
+        <content src="text/template2_000312.xhtml#d1001e312"/>
+      </navPoint>
+      <navPoint id="i6" class="h1" playOrder="6">
+        <navLabel>
+            <text>Copyright</text>
+        </navLabel>
+        <content src="text/template2_000324.xhtml#d1001e324"/>
+      </navPoint>
+      <navPoint id="i7" class="h1" playOrder="7">
+        <navLabel>
+            <text>Metadata</text>
+        </navLabel>
+        <content src="text/template2_000373.xhtml#d1001e373"/>
+      </navPoint>
+    </navMap>
+  </ncx>

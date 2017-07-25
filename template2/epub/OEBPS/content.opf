@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<package xmlns:dcterms="http://purl.org/dc/terms/"
+         xmlns:dc="http://purl.org/dc/elements/1.1/"
+         xmlns:xs="http://www.w3.org/2001/XMLSchema"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns:html="http://www.w3.org/1999/xhtml"
+         xmlns:epub="http://www.idpf.org/2007/ops"
+         xmlns:opf="http://www.idpf.org/2007/opf"
+         xmlns:ncx="http://www.daisy.org/z3986/2005/ncx/"
+         xmlns:cx="http://xmlcalabash.com/ns/extensions"
+         xmlns:c="http://www.w3.org/ns/xproc-step"
+         xmlns="http://www.idpf.org/2007/opf"
+         version="3.0"
+         unique-identifier="bookid"
+         prefix="rendition: http://www.idpf.org/vocab/rendition/#">
+   <metadata>
+      <dc:identifier id="bookid">89392383923</dc:identifier>
+      <dc:title>Mustertitel</dc:title>
+      <dc:creator>Autoren</dc:creator>
+      <dc:publisher>Verlag</dc:publisher>
+      <dc:language>en</dc:language>
+      <meta property="dcterms:modified">2017-07-24T17:59:00Z</meta>
+      <meta property="rendition:layout">reflowable</meta>
+      <meta property="rendition:spread">auto</meta>
+      <meta property="rendition:orientation">auto</meta>
+      <meta name="cover" content="idcover_coverpng"/>
+   </metadata>
+   <manifest>
+      <item href="images/cover.png"
+            media-type="image/png"
+            id="idcover_coverpng"
+            properties="cover-image"/>
+      <item href="images/leibniz_3.jpg"
+            media-type="image/jpeg"
+            id="images__leibniz_3jpg"/>
+      <item href="images/background.jpg"
+            media-type="image/jpeg"
+            id="images__backgroundjpg"/>
+      <item href="styles/cover.css" media-type="text/css" id="styles__covercss"/>
+      <item href="styles/epub.css" media-type="text/css" id="styles__epubcss"/>
+      <item href="toc.ncx" media-type="application/x-dtbncx+xml" id="ncx"/>
+      <item href="nav.xhtml"
+            media-type="application/xhtml+xml"
+            id="navxhtml"
+            properties="nav"/>
+      <item href="text/cover.xhtml"
+            media-type="application/xhtml+xml"
+            id="text__coverxhtml"
+            properties="svg"/>
+      <item href="text/template2_000107.xhtml"
+            media-type="application/xhtml+xml"
+            id="text__template2_000107xhtml"/>
+      <item href="text/template2_000119.xhtml"
+            media-type="application/xhtml+xml"
+            id="text__template2_000119xhtml"/>
+      <item href="text/template2_000153.xhtml"
+            media-type="application/xhtml+xml"
+            id="text__template2_000153xhtml"/>
+      <item href="text/template2_000195.xhtml"
+            media-type="application/xhtml+xml"
+            id="text__template2_000195xhtml"/>
+      <item href="text/template2_000312.xhtml"
+            media-type="application/xhtml+xml"
+            id="text__template2_000312xhtml"/>
+      <item href="text/template2_000324.xhtml"
+            media-type="application/xhtml+xml"
+            id="text__template2_000324xhtml"/>
+      <item href="text/template2_000373.xhtml"
+            media-type="application/xhtml+xml"
+            id="text__template2_000373xhtml"/>
+   </manifest>
+   <spine toc="ncx">
+      <itemref idref="text__coverxhtml"/>
+      <itemref idref="text__template2_000107xhtml"/>
+      <itemref idref="text__template2_000119xhtml"/>
+      <itemref idref="text__template2_000153xhtml"/>
+      <itemref idref="text__template2_000195xhtml"/>
+      <itemref idref="text__template2_000312xhtml"/>
+      <itemref idref="text__template2_000324xhtml"/>
+      <itemref idref="text__template2_000373xhtml"/>
+   </spine>
+</package>

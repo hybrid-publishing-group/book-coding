@@ -1,0 +1,40 @@
+INFO : epubtools/modules/create-ops/xpl/create-ops.xpl:223:33:attach-cover: width=1240px, height=1748px
+INFO : epubtools/modules/create-ops/xpl/create-ops.xpl:291:38:
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+EXTRACT FILEREFS FROM HTML SOURCE FILE:
+
+file:/home/mrc/Github251016/book-coding/template2/images/cover.png
+images/leibniz_3.jpg
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+INFO : epubtools/modules/html-splitter/xpl/html-splitter.xpl:136:49:Chunk text/cover.xhtml (1 of 8): 3 elements, starting with div
+INFO : epubtools/modules/html-splitter/xpl/html-splitter.xpl:136:49:Chunk text/template2_000107.xhtml (2 of 8): 1 element: section
+INFO : epubtools/modules/html-splitter/xpl/html-splitter.xpl:136:49:Chunk text/template2_000119.xhtml (3 of 8): 1 element: section
+INFO : epubtools/modules/html-splitter/xpl/html-splitter.xpl:136:49:Chunk text/template2_000153.xhtml (4 of 8): 1 element: section
+INFO : epubtools/modules/html-splitter/xpl/html-splitter.xpl:136:49:Chunk text/template2_000195.xhtml (5 of 8): 1 element: section
+INFO : epubtools/modules/html-splitter/xpl/html-splitter.xpl:136:49:Chunk text/template2_000312.xhtml (6 of 8): 1 element: section
+INFO : epubtools/modules/html-splitter/xpl/html-splitter.xpl:136:49:Chunk text/template2_000324.xhtml (7 of 8): 1 element: section
+INFO : epubtools/modules/html-splitter/xpl/html-splitter.xpl:136:49:Chunk text/template2_000373.xhtml (8 of 8): 2 elements, starting with section
+WARN : err:SXXP0005:The source document is in no namespace, but the template rules all expect elements in a namespace (Use --suppressXsltNamespaceCheck:on to avoid this warning)
+INFO : epubtools/modules/zip-package/xpl/zip-package.xpl:91:40:
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ COLLECT FILES FOR EPUB PACKAGE:
+
+OEBPS/content.opf
+OEBPS/images/cover.png
+OEBPS/images/leibniz_3.jpg
+OEBPS/images/background.jpg
+OEBPS/styles/cover.css
+OEBPS/styles/epub.css
+OEBPS/toc.ncx
+OEBPS/nav.xhtml
+OEBPS/text/cover.xhtml
+OEBPS/text/template2_000107.xhtml
+OEBPS/text/template2_000119.xhtml
+OEBPS/text/template2_000153.xhtml
+OEBPS/text/template2_000195.xhtml
+OEBPS/text/template2_000312.xhtml
+OEBPS/text/template2_000324.xhtml
+OEBPS/text/template2_000373.xhtml
+mimetype
+META-INF/container.xml
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
