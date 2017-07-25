@@ -24,11 +24,15 @@ Transpect - http://transpect.github.io/
 
 CSS Paged Media - https://drafts.csswg.org/css-page/
 
+Paged Media about and guides - https://www.print-css.rocks/
+
 Paged Media covers - https://www.pagedmedia.org/a-book-by-its-cover/
 
 https://gitlab.coko.foundation/julientaq/cabbageTreeMethod
 
 HTML learning the basics - https://www.w3schools.com/html/html_basic.asp
+
+HTML_vs._XHTML - https://wiki.whatwg.org/wiki/HTML_vs._XHTML
 
 CSS learning the basics - https://www.w3schools.com/css/default.asp
 
