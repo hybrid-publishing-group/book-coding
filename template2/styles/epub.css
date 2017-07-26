@@ -69,9 +69,34 @@ p {
   hyphens: auto;
 }
 
+p.coder {
+  font-family: "Montserrat Regular", sans-serif;
+  font-size: 7pt;
+  line-height: auto;
+  text-align: left;
+  margin-bottom: 0pt;
+  letter-spacing: 0pt;
+  word-spacing: 0pt;
+  orphans: 2;
+  widows: 2;
+  -moz-hyphens: auto;
+  -ms-hyphens: auto;
+  -webkit-hyphens: auto;
+  hyphens: auto;
+}
+
+a {
+    color: black;
+}
+
+pre {
+  max-width: 40mm;
+}
+
 .footnote {
     float: footnote;
-    font-size: 8pt;
+		display: none;
+    font-size: 9pt;
     counter-increment: footnote;
     text-indent: 0;
     line-height: auto;
@@ -94,6 +119,28 @@ p {
     line-height: 0;
 }
 
+.siebzig {
+  width: 50%;
+  text-align: center;
+  margin-top: 0em;
+  margin-left: 0em;
+}
+
+figure figcaption {
+  font-family: "Gentium Basic", serif;
+  margin-top: 5pt;
+  margin-bottom: 0pt;
+  font-style: normal;
+  color: black;
+  text-indent: 0;
+  text-align: center;
+  font-size: 9pt;
+  line-height: 11pt;
+  font-style: none;
+  letter-spacing: 0pt;
+  word-spacing: 1px;
+}
+
 section[data-type="chapter"] {
  /* break-before: page; */
     counter-reset: footnote;
@@ -107,7 +154,7 @@ div.image img {
 
 h1.blind { display:none; }
 div.dup { display:none; }
-
+div.booktitle { display:none; }
 
 div.image {
 	height: 1100px;

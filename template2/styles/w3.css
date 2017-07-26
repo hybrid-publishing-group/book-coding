@@ -209,4 +209,38 @@ hr{border:0;border-top:1px solid #eee;margin:20px 0}
 .w3-border-black,.w3-hover-border-black:hover{border-color:#000!important}
 .w3-border-grey,.w3-hover-border-grey:hover,.w3-border-gray,.w3-hover-border-gray:hover{border-color:#bbb!important}
 
+ /* additions */
+
 div.dup { display:none; }
+div.booktitle { display:none; }
+
+section[data-type="chapter"] {
+ /* break-before: page; */
+    counter-reset: footnote;
+}
+
+.footnote {
+    float: footnote;
+    display: none;
+    font-size: 9pt;
+    counter-increment: footnote;
+    text-indent: 0;
+    line-height: auto;
+    word-wrap: break-word;
+}
+
+.footnote::footnote-marker  {
+    content: counter(footnote)'. ';
+    font-size: 8pt;
+    vertical-align: none;
+    margin-right: 0pc;
+
+}
+
+.footnote::footnote-call {
+    content: counter(footnote);
+    font-size: 8pt;
+    vertical-align: super;
+    display: inline;
+    line-height: 0;
+}

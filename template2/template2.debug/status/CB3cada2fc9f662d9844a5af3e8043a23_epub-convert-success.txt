@@ -1,1 +1,0 @@
-EPUB generation finished (see the HTML report though – errors will be reported there)

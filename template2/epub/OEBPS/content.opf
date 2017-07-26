@@ -15,11 +15,11 @@
          prefix="rendition: http://www.idpf.org/vocab/rendition/#">
    <metadata>
       <dc:identifier id="bookid">89392383923</dc:identifier>
-      <dc:title>Mustertitel</dc:title>
-      <dc:creator>Autoren</dc:creator>
-      <dc:publisher>Verlag</dc:publisher>
+      <dc:title>#psberlin eBook Template</dc:title>
+      <dc:creator>Simon Worthington</dc:creator>
+      <dc:publisher>Berlin.Publishing-School</dc:publisher>
       <dc:language>en</dc:language>
-      <meta property="dcterms:modified">2017-07-24T17:59:00Z</meta>
+      <meta property="dcterms:modified">2017-07-26T15:06:53Z</meta>
       <meta property="rendition:layout">reflowable</meta>
       <meta property="rendition:spread">auto</meta>
       <meta property="rendition:orientation">auto</meta>
@@ -33,9 +33,6 @@
       <item href="images/leibniz_3.jpg"
             media-type="image/jpeg"
             id="images__leibniz_3jpg"/>
-      <item href="images/background.jpg"
-            media-type="image/jpeg"
-            id="images__backgroundjpg"/>
       <item href="styles/cover.css" media-type="text/css" id="styles__covercss"/>
       <item href="styles/epub.css" media-type="text/css" id="styles__epubcss"/>
       <item href="toc.ncx" media-type="application/x-dtbncx+xml" id="ncx"/>
@@ -47,36 +44,40 @@
             media-type="application/xhtml+xml"
             id="text__coverxhtml"
             properties="svg"/>
-      <item href="text/template2_000107.xhtml"
+      <item href="text/template2_000072.xhtml"
             media-type="application/xhtml+xml"
-            id="text__template2_000107xhtml"/>
-      <item href="text/template2_000119.xhtml"
+            id="text__template2_000072xhtml"/>
+      <item href="text/template2_000113.xhtml"
             media-type="application/xhtml+xml"
-            id="text__template2_000119xhtml"/>
-      <item href="text/template2_000153.xhtml"
+            id="text__template2_000113xhtml"/>
+      <item href="text/template2_000125.xhtml"
             media-type="application/xhtml+xml"
-            id="text__template2_000153xhtml"/>
-      <item href="text/template2_000195.xhtml"
+            id="text__template2_000125xhtml"/>
+      <item href="text/template2_000159.xhtml"
             media-type="application/xhtml+xml"
-            id="text__template2_000195xhtml"/>
-      <item href="text/template2_000312.xhtml"
+            id="text__template2_000159xhtml"/>
+      <item href="text/template2_000201.xhtml"
             media-type="application/xhtml+xml"
-            id="text__template2_000312xhtml"/>
-      <item href="text/template2_000324.xhtml"
+            id="text__template2_000201xhtml"/>
+      <item href="text/template2_000318.xhtml"
             media-type="application/xhtml+xml"
-            id="text__template2_000324xhtml"/>
-      <item href="text/template2_000373.xhtml"
+            id="text__template2_000318xhtml"/>
+      <item href="text/template2_000330.xhtml"
             media-type="application/xhtml+xml"
-            id="text__template2_000373xhtml"/>
+            id="text__template2_000330xhtml"/>
+      <item href="text/template2_000379.xhtml"
+            media-type="application/xhtml+xml"
+            id="text__template2_000379xhtml"/>
    </manifest>
    <spine toc="ncx">
       <itemref idref="text__coverxhtml"/>
-      <itemref idref="text__template2_000107xhtml"/>
-      <itemref idref="text__template2_000119xhtml"/>
-      <itemref idref="text__template2_000153xhtml"/>
-      <itemref idref="text__template2_000195xhtml"/>
-      <itemref idref="text__template2_000312xhtml"/>
-      <itemref idref="text__template2_000324xhtml"/>
-      <itemref idref="text__template2_000373xhtml"/>
+      <itemref idref="text__template2_000072xhtml"/>
+      <itemref idref="text__template2_000113xhtml"/>
+      <itemref idref="text__template2_000125xhtml"/>
+      <itemref idref="text__template2_000159xhtml"/>
+      <itemref idref="text__template2_000201xhtml"/>
+      <itemref idref="text__template2_000318xhtml"/>
+      <itemref idref="text__template2_000330xhtml"/>
+      <itemref idref="text__template2_000379xhtml"/>
    </spine>
 </package>

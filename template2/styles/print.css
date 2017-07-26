@@ -403,6 +403,14 @@ h1.title {
 word-spacing: 0px;
 }
 
+h2.toc {
+  font-size: 26pt;
+  margin-top: 2em;
+  margin-bottom: 1.5em;
+  text-transform: uppercase;
+  text-align: center;
+}
+
 h2 {
   font-size: 14pt;
   text-transform: none;
@@ -1013,7 +1021,7 @@ h2 {
 
 @-epubx-page-master cover {
   -epubx-page: 1;
-  background: url("../images/ptbf.jpg");
+  background: url("../images/cover-temp.png");
   background-size: cover;
 }
 

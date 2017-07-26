@@ -1,4 +1,13 @@
-INFO : epubtools/modules/create-ops/xpl/create-ops.xpl:223:33:attach-cover: width=1240px, height=1748px
+INFO : epubtools/modules/create-ops/xpl/create-ops.xpl:223:33:attach-cover: width=831px, height=1623px
+INFO : css-tools/xpl/css.xpl:41:32:External stylesheet 'w3.css' 
+(resolved as file:/home/mrc/Github251016/book-coding/template2/w3.css) not found
+or wrong encoding. Supported encodings: UTF-8, CP1252 (the latter should work for ISO-8859-1, too)
+INFO : css-tools/xpl/css.xpl:41:32:External stylesheet 'mobile.css' 
+(resolved as file:/home/mrc/Github251016/book-coding/template2/mobile.css) not found
+or wrong encoding. Supported encodings: UTF-8, CP1252 (the latter should work for ISO-8859-1, too)
+INFO : css-tools/xpl/css.xpl:41:32:External stylesheet 'print.css' 
+(resolved as file:/home/mrc/Github251016/book-coding/template2/print.css) not found
+or wrong encoding. Supported encodings: UTF-8, CP1252 (the latter should work for ISO-8859-1, too)
 INFO : epubtools/modules/create-ops/xpl/create-ops.xpl:291:38:
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 EXTRACT FILEREFS FROM HTML SOURCE FILE:
@@ -6,14 +15,28 @@ EXTRACT FILEREFS FROM HTML SOURCE FILE:
 file:/home/mrc/Github251016/book-coding/template2/images/cover.png
 images/leibniz_3.jpg
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-INFO : epubtools/modules/html-splitter/xpl/html-splitter.xpl:136:49:Chunk text/cover.xhtml (1 of 8): 3 elements, starting with div
-INFO : epubtools/modules/html-splitter/xpl/html-splitter.xpl:136:49:Chunk text/template2_000107.xhtml (2 of 8): 1 element: section
-INFO : epubtools/modules/html-splitter/xpl/html-splitter.xpl:136:49:Chunk text/template2_000119.xhtml (3 of 8): 1 element: section
-INFO : epubtools/modules/html-splitter/xpl/html-splitter.xpl:136:49:Chunk text/template2_000153.xhtml (4 of 8): 1 element: section
-INFO : epubtools/modules/html-splitter/xpl/html-splitter.xpl:136:49:Chunk text/template2_000195.xhtml (5 of 8): 1 element: section
-INFO : epubtools/modules/html-splitter/xpl/html-splitter.xpl:136:49:Chunk text/template2_000312.xhtml (6 of 8): 1 element: section
-INFO : epubtools/modules/html-splitter/xpl/html-splitter.xpl:136:49:Chunk text/template2_000324.xhtml (7 of 8): 1 element: section
-INFO : epubtools/modules/html-splitter/xpl/html-splitter.xpl:136:49:Chunk text/template2_000373.xhtml (8 of 8): 2 elements, starting with section
+INFO : epubtools/modules/html-splitter/xpl/html-splitter.xpl:136:49:Chunk text/cover.xhtml (1 of 9): 2 elements, starting with div
+INFO : epubtools/modules/html-splitter/xpl/html-splitter.xpl:136:49:Chunk text/template2_000072.xhtml (2 of 9): 1 element: section
+INFO : epubtools/modules/html-splitter/xpl/html-splitter.xpl:136:49:Chunk text/template2_000113.xhtml (3 of 9): 1 element: section
+INFO : epubtools/modules/html-splitter/xpl/html-splitter.xpl:136:49:Chunk text/template2_000125.xhtml (4 of 9): 1 element: section
+INFO : epubtools/modules/html-splitter/xpl/html-splitter.xpl:136:49:Chunk text/template2_000159.xhtml (5 of 9): 1 element: section
+INFO : epubtools/modules/html-splitter/xpl/html-splitter.xpl:136:49:Chunk text/template2_000201.xhtml (6 of 9): 1 element: section
+INFO : epubtools/modules/html-splitter/xpl/html-splitter.xpl:136:49:Chunk text/template2_000318.xhtml (7 of 9): 1 element: section
+INFO : epubtools/modules/html-splitter/xpl/html-splitter.xpl:136:49:Chunk text/template2_000330.xhtml (8 of 9): 1 element: section
+INFO : epubtools/modules/html-splitter/xpl/html-splitter.xpl:136:49:Chunk text/template2_000379.xhtml (9 of 9): 2 elements, starting with section
+INFO : epubtools/modules/html-splitter/xpl/html-splitter.xpl:313:41:[WARNING]: adding the following debug and output file to epub container: file:/home/mrc/Github251016/book-coding/template2//epub/OEBPS/styles/cover.css
+INFO : epubtools/modules/html-splitter/xpl/html-splitter.xpl:313:41:[WARNING]: adding the following debug and output file to epub container: file:/home/mrc/Github251016/book-coding/template2//epub/OEBPS/styles/epub.css
+INFO : epubtools/modules/html-splitter/xpl/html-splitter.xpl:313:41:[WARNING]: adding the following debug and output file to epub container: file:/home/mrc/Github251016/book-coding/template2///epub/OEBPS/toc.ncx
+INFO : epubtools/modules/html-splitter/xpl/html-splitter.xpl:313:41:[WARNING]: adding the following debug and output file to epub container: file:/home/mrc/Github251016/book-coding/template2///epub/OEBPS/nav.xhtml
+INFO : epubtools/modules/html-splitter/xpl/html-splitter.xpl:313:41:[WARNING]: adding the following debug and output file to epub container: file:/home/mrc/Github251016/book-coding/template2///epub/OEBPS/text/cover.xhtml
+INFO : epubtools/modules/html-splitter/xpl/html-splitter.xpl:313:41:[WARNING]: adding the following debug and output file to epub container: file:/home/mrc/Github251016/book-coding/template2///epub/OEBPS/text/template2_000072.xhtml
+INFO : epubtools/modules/html-splitter/xpl/html-splitter.xpl:313:41:[WARNING]: adding the following debug and output file to epub container: file:/home/mrc/Github251016/book-coding/template2///epub/OEBPS/text/template2_000113.xhtml
+INFO : epubtools/modules/html-splitter/xpl/html-splitter.xpl:313:41:[WARNING]: adding the following debug and output file to epub container: file:/home/mrc/Github251016/book-coding/template2///epub/OEBPS/text/template2_000125.xhtml
+INFO : epubtools/modules/html-splitter/xpl/html-splitter.xpl:313:41:[WARNING]: adding the following debug and output file to epub container: file:/home/mrc/Github251016/book-coding/template2///epub/OEBPS/text/template2_000159.xhtml
+INFO : epubtools/modules/html-splitter/xpl/html-splitter.xpl:313:41:[WARNING]: adding the following debug and output file to epub container: file:/home/mrc/Github251016/book-coding/template2///epub/OEBPS/text/template2_000201.xhtml
+INFO : epubtools/modules/html-splitter/xpl/html-splitter.xpl:313:41:[WARNING]: adding the following debug and output file to epub container: file:/home/mrc/Github251016/book-coding/template2///epub/OEBPS/text/template2_000318.xhtml
+INFO : epubtools/modules/html-splitter/xpl/html-splitter.xpl:313:41:[WARNING]: adding the following debug and output file to epub container: file:/home/mrc/Github251016/book-coding/template2///epub/OEBPS/text/template2_000330.xhtml
+INFO : epubtools/modules/html-splitter/xpl/html-splitter.xpl:313:41:[WARNING]: adding the following debug and output file to epub container: file:/home/mrc/Github251016/book-coding/template2///epub/OEBPS/text/template2_000379.xhtml
 WARN : err:SXXP0005:The source document is in no namespace, but the template rules all expect elements in a namespace (Use --suppressXsltNamespaceCheck:on to avoid this warning)
 INFO : epubtools/modules/zip-package/xpl/zip-package.xpl:91:40:
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -22,19 +45,19 @@ INFO : epubtools/modules/zip-package/xpl/zip-package.xpl:91:40:
 OEBPS/content.opf
 OEBPS/images/cover.png
 OEBPS/images/leibniz_3.jpg
-OEBPS/images/background.jpg
 OEBPS/styles/cover.css
 OEBPS/styles/epub.css
 OEBPS/toc.ncx
 OEBPS/nav.xhtml
 OEBPS/text/cover.xhtml
-OEBPS/text/template2_000107.xhtml
-OEBPS/text/template2_000119.xhtml
-OEBPS/text/template2_000153.xhtml
-OEBPS/text/template2_000195.xhtml
-OEBPS/text/template2_000312.xhtml
-OEBPS/text/template2_000324.xhtml
-OEBPS/text/template2_000373.xhtml
+OEBPS/text/template2_000072.xhtml
+OEBPS/text/template2_000113.xhtml
+OEBPS/text/template2_000125.xhtml
+OEBPS/text/template2_000159.xhtml
+OEBPS/text/template2_000201.xhtml
+OEBPS/text/template2_000318.xhtml
+OEBPS/text/template2_000330.xhtml
+OEBPS/text/template2_000379.xhtml
 mimetype
 META-INF/container.xml
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~

@@ -7,50 +7,56 @@
       <meta name="dtb:uid" content="89392383923"/>
     </head>
     <docTitle>
-      <text>Mustertitel</text>
+      <text>#psberlin eBook Template</text>
     </docTitle>
     <navMap>
       <navPoint id="i1" class="h1" playOrder="1">
         <navLabel>
-            <text>Abstract</text>
+            <text>Table of Contents</text>
         </navLabel>
-        <content src="text/template2_000107.xhtml#d1001e107"/>
+        <content src="text/template2_000072.xhtml#d1015e72"/>
       </navPoint>
       <navPoint id="i2" class="h1" playOrder="2">
         <navLabel>
-            <text>1. Introduction</text>
+            <text>Abstract</text>
         </navLabel>
-        <content src="text/template2_000119.xhtml#d1001e119"/>
+        <content src="text/template2_000113.xhtml#d1015e113"/>
       </navPoint>
       <navPoint id="i3" class="h1" playOrder="3">
         <navLabel>
-            <text>2. Broken Workflows</text>
+            <text>1. Introduction</text>
         </navLabel>
-        <content src="text/template2_000153.xhtml#d1001e153"/>
+        <content src="text/template2_000125.xhtml#d1015e125"/>
       </navPoint>
       <navPoint id="i4" class="h1" playOrder="4">
         <navLabel>
-            <text>References:</text>
+            <text>2. Broken Workflows</text>
         </navLabel>
-        <content src="text/template2_000195.xhtml#d1001e195"/>
+        <content src="text/template2_000159.xhtml#d1015e159"/>
       </navPoint>
       <navPoint id="i5" class="h1" playOrder="5">
         <navLabel>
-            <text>Acknowledgements</text>
+            <text>References:</text>
         </navLabel>
-        <content src="text/template2_000312.xhtml#d1001e312"/>
+        <content src="text/template2_000201.xhtml#d1015e201"/>
       </navPoint>
       <navPoint id="i6" class="h1" playOrder="6">
         <navLabel>
-            <text>Copyright</text>
+            <text>Acknowledgements</text>
         </navLabel>
-        <content src="text/template2_000324.xhtml#d1001e324"/>
+        <content src="text/template2_000318.xhtml#d1015e318"/>
       </navPoint>
       <navPoint id="i7" class="h1" playOrder="7">
         <navLabel>
+            <text>Copyright</text>
+        </navLabel>
+        <content src="text/template2_000330.xhtml#d1015e330"/>
+      </navPoint>
+      <navPoint id="i8" class="h1" playOrder="8">
+        <navLabel>
             <text>Metadata</text>
         </navLabel>
-        <content src="text/template2_000373.xhtml#d1001e373"/>
+        <content src="text/template2_000379.xhtml#d1015e379"/>
       </navPoint>
     </navMap>
   </ncx>
