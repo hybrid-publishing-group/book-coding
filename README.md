@@ -67,7 +67,7 @@ Features well explore:
 - footnotes
 - headers
 
-### Session #2 - Making Ebooks Using Transpect Software
+# Session #2 26.07.2017 - Making Ebooks Using Transpect Software
 
 Using the same XHTML/CSS file set we can use the free and open source Transpect software made by le-tex (Leipzig) to make different types of eBooks.
 
@@ -147,9 +147,9 @@ mrc@bethia:~/Github251016/epubtools-frontend$ ./epubconvert ../book-coding/templ
     - Introduction - Proud To Be Flesh
     - Chapter 1: Introduction - Direct Democracy and its Demons: Web 1.0 to Web 2.0
     - Chapter 2: Introduction - From Net Art to Conceptual Art and Back
-    - Chapter 3: Introduction – I, Cyborg: Reinventing the Human
-    - Chapter 4: Introduction – Of Commoners and Criminals
-    - Chapter 5: Introduction – Organising Horizontally
+    - Chapter 3: Introduction - I, Cyborg: Reinventing the Human
+    - Chapter 4: Introduction - Of Commoners and Criminals
+    - Chapter 5: Introduction - Organising Horizontally
     - Chapter 6: Introduction - Assuming the Position: Art and/Against Business
     - Chapter 7: Introduction - Under the Net: the City and the Camp
     - Chapter 8: Introduction - Reality Check: Class and Immaterial Labour
@@ -160,7 +160,9 @@ mrc@bethia:~/Github251016/epubtools-frontend$ ./epubconvert ../book-coding/templ
   - file structure
   - parts that make the ebook - copy template folder to amke new books
 
-## About Responsive CSS W3C
+## About Responsive W3CSS
+
+Alternative to Bootstrap, under consideration - https://www.w3schools.com/w3css/default.asp
 
 ## eBook making - step-by-step
 
@@ -169,5 +171,9 @@ mrc@bethia:~/Github251016/epubtools-frontend$ ./epubconvert ../book-coding/templ
   - Print sizes
   - eBook types
 
+## Review
 
+  - GitHub Issues
+  - Slack
+  
 
