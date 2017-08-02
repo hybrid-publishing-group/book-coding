@@ -184,12 +184,12 @@ Below will get you started with a command line eBook generation workflow using a
 
 Thanks - Berlin.Publishing-School.net
 
- 1 Create a GitHub account
- 2 Download GitHub desktop app https://desktop.github.com/
- 3 Use your GitHub user account and log into the desktop app
- 4 Now add two repositories from GitHub to your GitHub desktop app
-   - Transpect epubtools-frontend https://github.com/transpect/epubtools-frontend
-   - #psberlin book templates https://github.com/hybrid-publishing-group/book-coding 
+1. Create a GitHub account
+2. Download GitHub desktop app https://desktop.github.com/
+3. Use your GitHub user account and log into the desktop app
+4. Now add two repositories from GitHub to your GitHub desktop app
+  * Transpect epubtools-frontend https://github.com/transpect/epubtools-frontend
+  * #psberlin book templates https://github.com/hybrid-publishing-group/book-coding 
  5 Install Java™ Platform, Standard Edition Development Kit (SDK) - http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html
  6 Launch your command line interface (CLI) AKA terminal from /applications/ultilities/terminal.app or other option on Linux, Windows
  7 In the terminal navigate to /Documents/Github/epubtools-frontend using cd Documents/Github/epubtools-frontend or to wherever you have your Github repositories stored. NB: Basic Mac command line cheat sheet https://gist.github.com/poopsplat/7195274
