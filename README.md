@@ -189,7 +189,9 @@ Thanks from - [Berlin.Publishing-School.net](http://berlin.publishing-school.net
 3. Use your GitHub user account and log into the desktop app
 4. Now add two repositories from GitHub to your GitHub desktop app
   * Transpect epubtools-frontend https://github.com/transpect/epubtools-frontend 
-    Note: if your downloading via the terminal you need to use a recursive cloning `$ git clone git@github.com:transpect/epubtools-frontend.git --recursive` otherwise Transpect internals will be missing.
+  
+    Note: if your cloning via the terminal you need to use a recursive cloning `$ git clone git@github.com:transpect/epubtools-frontend.git --recursive` otherwise Transpect internals will be missing.
+    
   * #psberlin book templates https://github.com/hybrid-publishing-group/book-coding 
 5. Install Java™ Platform, Standard Edition Development Kit (SDK) - http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html
 6. Launch your command line interface (CLI) AKA *terminal* from /applications/ultilities/terminal.app or other option on Linux, Windows
