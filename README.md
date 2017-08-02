@@ -218,6 +218,21 @@ Any questions ping us on Twitter [@hy_pub](https://twitter.com/@hy_pub) or log a
 
 We'll start with building a sample book from some Mute Magazine Anthology content to test out Vivliostyle, Transpect and then distro the publications (eventually)!
 
+## Make eBook using Mute content
+
+  - Got to http://www.metamute.org/content/proud-to-be-flesh
+
+    - Introduction - Proud To Be Flesh
+    - Chapter 1: Introduction - [Direct Democracy and its Demons: Web 1.0 to Web 2.0] (http://www.metamute.org/editorial/articles/chapter-1-introduction-direct-democracy-and-its-demons-web-1.0-to-web-2.0)
+    - Chapter 2: Introduction - [From Net Art to Conceptual Art and Back](http://www.metamute.org/editorial/articles/chapter-2-introduction-net-art-to-conceptual-art-and-back)
+    - Chapter 3: Introduction - [I, Cyborg: Reinventing the Human](http://www.metamute.org/editorial/articles/chapter-3-introduction-%E2%80%93-i-cyborg-reinventing-human)
+    - Chapter 4: Introduction - [Of Commoners and Criminals](http://www.metamute.org/editorial/articles/chapter-4-introduction-%E2%80%93-commoners-and-criminals)
+    - Chapter 5: Introduction - [Organising Horizontally](http://www.metamute.org/editorial/articles/chapter-5-introduction-%E2%80%93-organising-horizontally)
+    - Chapter 6: Introduction - [Assuming the Position: Art and/Against Business](http://www.metamute.org/editorial/articles/chapter-6-introduction-assuming-position-art-andagainst-business)
+    - Chapter 7: Introduction - [Under the Net: the City and the Camp](http://www.metamute.org/editorial/articles/chapter-7-introduction-under-net-city-and-camp)
+    - Chapter 8: Introduction - [Reality Check: Class and Immaterial Labour](http://www.metamute.org/editorial/articles/chapter-8-introduction-reality-check-class-and-immaterial-labour)
+    - Chapter 9: Introduction - [The Open Work](http://www.metamute.org/editorial/articles/chapter-9-introduction-open-work)
+
 ## Responsive Web
 
  * Get Bootstrap - http://getbootstrap.com/getting-started/
