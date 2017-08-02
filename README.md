@@ -203,7 +203,7 @@ starting epubconvert
 writing EPUB file => epubtools/samplexhtml/samplexhtml.epub
 epubconvert finished, for details see epubtools/samplexhtml/samplexhtml.log
 ```
-Viola!
+Voilà!
 
 You can also use the #psberlin book template here:
 ```
