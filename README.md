@@ -214,7 +214,25 @@ $ ./epubconvert ../book-coding/template2/template2.xhtml
 ```
 Any questions ping us on Twitter [@hy_pub](https://twitter.com/@hy_pub) or log an issue on Github.
 
+# Session #3 02.08.2017 - Responsive web, distribution, refresh
 
+We'll start with building a sample book from some Mute Magazine Anthology content to test out Vivliostyle, Transpect and then distro the publications (eventually)!
+
+## Responsive Web
+
+ * Get Bootstrap - http://getbootstrap.com/getting-started/
+ * Bootstrap tutorial - https://www.w3schools.com/bootstrap/default.asp
+ 
+## Distribution
+
+ * Pod, eBook. Ingram Spark or Lightning Source - http://www.ingramspark.com/ - https://myaccount.lightningsource.com/ or local supplier 
+ * Kindle Direct - https://kdp.amazon.com
+ * Google Books and Play, Amazon Look Inside, Archive.org
+ * Amazon Seller Central
+ * GitHub - and related, GitBooks Caliban and the Witch https://www.akpress.org/calibanandthewitch.html and https://www.gitbook.com/book/anarchivists/caliban/details
+ * Lots of academic options with Open Access
+ 
+ ## Refresh: Transpect, Vivliostyle, GitHub
  
  
 
