@@ -3,7 +3,7 @@ Book coding course details http://berlin.publishing-school.net/css-books
 
 Each class sits a seperate module, so you can attend single classes.
 
-## Session Outline 19.7.17
+## Session 1 - Outline 19.7.17
 
 - class objective: 
     - make a PDF book for A6 pamphlet (self covers), impositioned on A4
@@ -176,4 +176,41 @@ Alternative to Bootstrap, under consideration - https://www.w3schools.com/w3css/
   - GitHub Issues
   - Slack
   
+# Installing Transpect epubtools-frontend
 
+These notes are targetted at OSX users, but also apply generally.
+
+Below will get you started with a command line eBook generation workflow using an XHTML/CSS file set. For full guidelines on the whole process and designing and editing your book see https://github.com/hybrid-publishing-group/book-coding
+
+Thanks - Berlin.Publishing-School.net
+
+ 1 Create a GitHub account
+ 2 Download GitHub desktop app https://desktop.github.com/
+ 3 Use your GitHub user account and log into the desktop app
+ 4 Now add two repositories from GitHub to your GitHub desktop app
+   - Transpect epubtools-frontend https://github.com/transpect/epubtools-frontend
+   - #psberlin book templates https://github.com/hybrid-publishing-group/book-coding 
+ 5 Install Java™ Platform, Standard Edition Development Kit (SDK) - http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html
+ 6 Launch your command line interface (CLI) AKA terminal from /applications/ultilities/terminal.app or other option on Linux, Windows
+ 7 In the terminal navigate to /Documents/Github/epubtools-frontend using cd Documents/Github/epubtools-frontend or to wherever you have your Github repositories stored. NB: Basic Mac command line cheat sheet https://gist.github.com/poopsplat/7195274
+ 8 Now you can make eBooks by entering the following command on the CLI, the CLI output will give you the name and location of the outputted eBook file: 
+```
+$ ./epubconvert epubtools/samplexhtml/samplexhtml.xhtml
+```
+CLI output
+```
+starting epubconvert
+writing EPUB file => epubtools/samplexhtml/samplexhtml.epub
+epubconvert finished, for details see epubtools/samplexhtml/samplexhtml.log
+```
+Viola!
+
+You can also use the #psberlin book template here:
+```
+$ ./epubconvert ../book-coding/template2/template2.xhtml
+```
+Any questions ping us on Twitter @hy_pub
+
+
+ 
+ 
