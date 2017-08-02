@@ -178,13 +178,13 @@ Alternative to Bootstrap, under consideration - https://www.w3schools.com/w3css/
   
 # Installing Transpect epubtools-frontend
 
-These notes are targeted at OSX users, but also apply generally.
+These notes are for OSX users, but also apply generally to most operating systems.
 
-Below will get you started with a command line eBook generation workflow using an XHTML/CSS file set. For full guidelines on the whole process and designing and editing your book see https://github.com/hybrid-publishing-group/book-coding
+Below will get you started with a command line eBook generation workflow using an XHTML/CSS file set using the free and open source software Transpect module *epubtools-frontend*. For full guidelines on the whole process, designing and editing your book see https://github.com/hybrid-publishing-group/book-coding
 
 Thanks from - [Berlin.Publishing-School.net](http://berlin.publishing-school.net)
 
-1. Create a GitHub account
+1. Create a GitHub account https://github.com/join
 2. Download GitHub desktop app https://desktop.github.com/
 3. Use your GitHub user account and log into the desktop app
 4. Now add two repositories from GitHub to your GitHub desktop app
@@ -193,8 +193,8 @@ Thanks from - [Berlin.Publishing-School.net](http://berlin.publishing-school.net
     Note: if your cloning via the terminal you need to use a recursive cloning `$ git clone git@github.com:transpect/epubtools-frontend.git --recursive` otherwise Transpect internals will be missing.
     
   * #psberlin book templates https://github.com/hybrid-publishing-group/book-coding 
-5. Install Java™ Platform, Standard Edition Development Kit (SDK) - http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html
-6. Launch your command line interface (CLI) AKA *terminal* from /applications/ultilities/terminal.app or other option on Linux, Windows
+5. Install Java™ Platform, Standard Edition Development Kit (SDK) 1.8+ - http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html
+6. Launch your command line interface (CLI) AKA *terminal* from /applications/ultilities/terminal.app or by another method on Linux or Windows
 7. In the terminal navigate to /Documents/Github/epubtools-frontend using `cd Documents/Github/epubtools-frontend` or to wherever you have your Github repositories stored. NB: Basic Mac command line cheat sheet https://gist.github.com/poopsplat/7195274
 8. Now you can make eBooks by entering the following command in the terminal, the terminal output will give you the name and location of the outputted eBook file: 
 ```
@@ -213,6 +213,44 @@ You can also use the #psberlin book template here to make an ebook, and edit and
 $ ./epubconvert ../book-coding/template2/template2.xhtml
 ```
 Any questions ping us on Twitter [@hy_pub](https://twitter.com/@hy_pub) or log an issue on Github.
+
+# Session #3 02.08.2017 - Responsive web, distribution, refresh
+
+We'll start with building a sample book from some Mute Magazine Anthology content to test out Vivliostyle, Transpect and then distro the publications (eventually)!
+
+## Make eBook using Mute content
+
+  - Got to http://www.metamute.org/content/proud-to-be-flesh
+
+    - Introduction - Proud To Be Flesh
+    - Chapter 1: Introduction - [Direct Democracy and its Demons: Web 1.0 to Web 2.0] (http://www.metamute.org/editorial/articles/chapter-1-introduction-direct-democracy-and-its-demons-web-1.0-to-web-2.0)
+    - Chapter 2: Introduction - [From Net Art to Conceptual Art and Back](http://www.metamute.org/editorial/articles/chapter-2-introduction-net-art-to-conceptual-art-and-back)
+    - Chapter 3: Introduction - [I, Cyborg: Reinventing the Human](http://www.metamute.org/editorial/articles/chapter-3-introduction-%E2%80%93-i-cyborg-reinventing-human)
+    - Chapter 4: Introduction - [Of Commoners and Criminals](http://www.metamute.org/editorial/articles/chapter-4-introduction-%E2%80%93-commoners-and-criminals)
+    - Chapter 5: Introduction - [Organising Horizontally](http://www.metamute.org/editorial/articles/chapter-5-introduction-%E2%80%93-organising-horizontally)
+    - Chapter 6: Introduction - [Assuming the Position: Art and/Against Business](http://www.metamute.org/editorial/articles/chapter-6-introduction-assuming-position-art-andagainst-business)
+    - Chapter 7: Introduction - [Under the Net: the City and the Camp](http://www.metamute.org/editorial/articles/chapter-7-introduction-under-net-city-and-camp)
+    - Chapter 8: Introduction - [Reality Check: Class and Immaterial Labour](http://www.metamute.org/editorial/articles/chapter-8-introduction-reality-check-class-and-immaterial-labour)
+    - Chapter 9: Introduction - [The Open Work](http://www.metamute.org/editorial/articles/chapter-9-introduction-open-work)
+
+## Responsive Web
+
+ * Get Bootstrap - http://getbootstrap.com/getting-started/
+ * Bootstrap tutorial - https://www.w3schools.com/bootstrap/default.asp
+ 
+## Distribution
+
+ * Pod, eBook. Ingram Spark or Lightning Source - http://www.ingramspark.com/ - https://myaccount.lightningsource.com/ or local PoD supplier, e.g. Berlin, dbusiness.de gmbh http://www.dbusiness.de
+ * Kindle Direct - https://kdp.amazon.com
+ * Google Books and Play, Amazon Look Inside, Archive.org
+ * Amazon Seller Central
+ * GitHub - and related, GitBooks Caliban and the Witch https://www.akpress.org/calibanandthewitch.html and https://www.gitbook.com/book/anarchivists/caliban/details
+ * Lots of academic options with Open Access
+ 
+ ## Refresh: Transpect, Vivliostyle, GitHub
+ 
+ 
+
 
 
  
