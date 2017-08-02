@@ -14,49 +14,49 @@
         <navLabel>
             <text>Table of Contents</text>
         </navLabel>
-        <content src="text/template2_000072.xhtml#d1015e72"/>
+        <content src="text/template2_000079.xhtml#d1036e79"/>
       </navPoint>
       <navPoint id="i2" class="h1" playOrder="2">
         <navLabel>
             <text>Abstract</text>
         </navLabel>
-        <content src="text/template2_000113.xhtml#d1015e113"/>
+        <content src="text/template2_000120.xhtml#d1036e120"/>
       </navPoint>
       <navPoint id="i3" class="h1" playOrder="3">
         <navLabel>
             <text>1. Introduction</text>
         </navLabel>
-        <content src="text/template2_000125.xhtml#d1015e125"/>
+        <content src="text/template2_000132.xhtml#d1036e132"/>
       </navPoint>
       <navPoint id="i4" class="h1" playOrder="4">
         <navLabel>
             <text>2. Broken Workflows</text>
         </navLabel>
-        <content src="text/template2_000159.xhtml#d1015e159"/>
+        <content src="text/template2_000166.xhtml#d1036e166"/>
       </navPoint>
       <navPoint id="i5" class="h1" playOrder="5">
         <navLabel>
             <text>References:</text>
         </navLabel>
-        <content src="text/template2_000201.xhtml#d1015e201"/>
+        <content src="text/template2_000208.xhtml#d1036e208"/>
       </navPoint>
       <navPoint id="i6" class="h1" playOrder="6">
         <navLabel>
             <text>Acknowledgements</text>
         </navLabel>
-        <content src="text/template2_000318.xhtml#d1015e318"/>
+        <content src="text/template2_000325.xhtml#d1036e325"/>
       </navPoint>
       <navPoint id="i7" class="h1" playOrder="7">
         <navLabel>
             <text>Copyright</text>
         </navLabel>
-        <content src="text/template2_000330.xhtml#d1015e330"/>
+        <content src="text/template2_000337.xhtml#d1036e337"/>
       </navPoint>
       <navPoint id="i8" class="h1" playOrder="8">
         <navLabel>
             <text>Metadata</text>
         </navLabel>
-        <content src="text/template2_000379.xhtml#d1015e379"/>
+        <content src="text/template2_000386.xhtml#d1036e386"/>
       </navPoint>
     </navMap>
   </ncx>
