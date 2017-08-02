@@ -208,11 +208,11 @@ epubconvert finished, for details see epubtools/samplexhtml/samplexhtml.log
 ```
 Voilà!
 
-You can also use the #psberlin book template here:
+You can also use the #psberlin book template here to make an ebook, and edit and design the book as you like. Run the following command:
 ```
 $ ./epubconvert ../book-coding/template2/template2.xhtml
 ```
-Any questions ping us on Twitter [@hy_pub](https://twitter.com/@hy_pub)
+Any questions ping us on Twitter [@hy_pub](https://twitter.com/@hy_pub) or log an issue on Github.
 
 
  
