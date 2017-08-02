@@ -225,7 +225,7 @@ We'll start with building a sample book from some Mute Magazine Anthology conten
  
 ## Distribution
 
- * Pod, eBook. Ingram Spark or Lightning Source - http://www.ingramspark.com/ - https://myaccount.lightningsource.com/ or local supplier 
+ * Pod, eBook. Ingram Spark or Lightning Source - http://www.ingramspark.com/ - https://myaccount.lightningsource.com/ or local PoD supplier, e.g. Berlin, dbusiness.de gmbh http://www.dbusiness.de
  * Kindle Direct - https://kdp.amazon.com
  * Google Books and Play, Amazon Look Inside, Archive.org
  * Amazon Seller Central
