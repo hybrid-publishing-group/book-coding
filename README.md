@@ -193,7 +193,7 @@ Thanks from - [Berlin.Publishing-School.net](http://berlin.publishing-school.net
     Note: if your cloning via the terminal you need to use a recursive cloning `$ git clone git@github.com:transpect/epubtools-frontend.git --recursive` otherwise Transpect internals will be missing.
     
   * #psberlin book templates https://github.com/hybrid-publishing-group/book-coding 
-5. Install Java™ Platform, Standard Edition Development Kit (SDK) 1.8+ - http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html
+5. Install Java™ Platform, Standard Edition Development Kit (SDK) 1.7+ - http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html
 6. Launch your command line interface (CLI) AKA *terminal* from /applications/ultilities/terminal.app or by another method on Linux or Windows
 7. In the terminal navigate to /Documents/Github/epubtools-frontend using `cd Documents/Github/epubtools-frontend` or to wherever you have your Github repositories stored. NB: Basic Mac command line cheat sheet https://gist.github.com/poopsplat/7195274
 8. Now you can make eBooks by entering the following command in the terminal, the terminal output will give you the name and location of the outputted eBook file: 
