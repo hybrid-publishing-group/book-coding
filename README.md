@@ -193,18 +193,18 @@ Thanks from - [Berlin.Publishing-School.net](http://berlin.publishing-school.net
     Note: if your cloning via the terminal you need to use a recursive cloning `$ git clone git@github.com:transpect/epubtools-frontend.git --recursive` otherwise Transpect internals will be missing.
     
   * #psberlin book templates https://github.com/hybrid-publishing-group/book-coding 
-5. Install Java™ Platform, Standard Edition Development Kit (SDK) 1.8+ - http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html
+5. Install Java™ Platform, Standard Edition Development Kit (SDK) 1.7+ - http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html
 6. Launch your command line interface (CLI) AKA *terminal* from /applications/ultilities/terminal.app or by another method on Linux or Windows
 7. In the terminal navigate to /Documents/Github/epubtools-frontend using `cd Documents/Github/epubtools-frontend` or to wherever you have your Github repositories stored. NB: Basic Mac command line cheat sheet https://gist.github.com/poopsplat/7195274
 8. Now you can make eBooks by entering the following command in the terminal, the terminal output will give you the name and location of the outputted eBook file: 
 ```
-$ ./epubconvert epubtools/samplexhtml/samplexhtml.xhtml
+$ ./epubconvert epubtools/sample/sample.xhtml
 ```
 Terminal output
 ```
 starting epubconvert
-writing EPUB file => epubtools/samplexhtml/samplexhtml.epub
-epubconvert finished, for details see epubtools/samplexhtml/samplexhtml.log
+writing EPUB file => epubtools/sample/sample.epub
+epubconvert finished, for details see epubtools/sample/sample.log
 ```
 Voilà!
 
@@ -223,7 +223,7 @@ We'll start with building a sample book from some Mute Magazine Anthology conten
   - Got to http://www.metamute.org/content/proud-to-be-flesh
 
     - Introduction - Proud To Be Flesh
-    - Chapter 1: Introduction - [Direct Democracy and its Demons: Web 1.0 to Web 2.0] (http://www.metamute.org/editorial/articles/chapter-1-introduction-direct-democracy-and-its-demons-web-1.0-to-web-2.0)
+    - Chapter 1: Introduction - [Direct Democracy and its Demons: Web 1.0 to Web 2.0](http://www.metamute.org/editorial/articles/chapter-1-introduction-direct-democracy-and-its-demons-web-1.0-to-web-2.0)
     - Chapter 2: Introduction - [From Net Art to Conceptual Art and Back](http://www.metamute.org/editorial/articles/chapter-2-introduction-net-art-to-conceptual-art-and-back)
     - Chapter 3: Introduction - [I, Cyborg: Reinventing the Human](http://www.metamute.org/editorial/articles/chapter-3-introduction-%E2%80%93-i-cyborg-reinventing-human)
     - Chapter 4: Introduction - [Of Commoners and Criminals](http://www.metamute.org/editorial/articles/chapter-4-introduction-%E2%80%93-commoners-and-criminals)
@@ -244,8 +244,8 @@ We'll start with building a sample book from some Mute Magazine Anthology conten
  * Kindle Direct - https://kdp.amazon.com
  * Google Books and Play, Amazon Look Inside, Archive.org
  * Amazon Seller Central
- * GitHub - and related, GitBooks Caliban and the Witch https://www.akpress.org/calibanandthewitch.html and https://www.gitbook.com/book/anarchivists/caliban/details
- * Lots of academic options with Open Access
+ * GitHub - and related, as an example of paid and free book distribution using GitBooks for the Silvia Federici title *Caliban and the Witch*, see https://www.akpress.org/calibanandthewitch.html and https://www.gitbook.com/book/anarchivists/caliban/details
+ * Lots of academic options with Open Access, e.g. https://www.openaire.eu/ , http://doabooks.org/ and https://zenodo.org/
  
  ## Refresh: Transpect, Vivliostyle, GitHub
  
