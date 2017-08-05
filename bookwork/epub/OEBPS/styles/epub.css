@@ -1,0 +1,103 @@
+@charset "UTF-8"; 
+/* Der einzigste Wert den ihr ändern dürft (müsst) ist die Breite im Body, alles andere bleibt wie es ist */
+/* Bevor ihr neue Elemente einfügt, fragt elro oder Manu */
+/* matches  viewport dimensions in head of xhtml */
+/* matches  viewport dimensions in head of xhtml */
+/* 	background-image:url('../images/background.jpg'); */
+body {
+  width: 800px;
+  height: 800px;
+  margin: 0;
+}
+html {
+  font-family: "Gentium Basic", serif;
+  font-weight: normal;
+  font-size: 9pt;
+  color: black;
+  hyphens: auto;
+}
+p {
+  font-family: "Gentium Basic", serif;
+  font-size: 9pt;
+  line-height: auto;
+  text-align: left;
+  margin-bottom: 0pt;
+  letter-spacing: 0pt;
+  word-spacing: 0pt;
+  orphans: 2;
+  widows: 2;
+  -moz-hyphens: auto;
+  -ms-hyphens: auto;
+  -webkit-hyphens: auto;
+  hyphens: auto;
+}
+p.coder {
+  font-family: "Montserrat Regular", sans-serif;
+  font-size: 7pt;
+  line-height: auto;
+  text-align: left;
+  margin-bottom: 0pt;
+  letter-spacing: 0pt;
+  word-spacing: 0pt;
+  orphans: 2;
+  widows: 2;
+  -moz-hyphens: auto;
+  -ms-hyphens: auto;
+  -webkit-hyphens: auto;
+  hyphens: auto;
+}
+a {
+  color: black;
+}
+.footnote {
+  float: footnote;
+  display: none;
+  font-size: 9pt;
+  counter-increment: footnote;
+  text-indent: 0;
+  line-height: auto;
+  word-wrap: break-word;
+}
+.footnote::footnote-marker {
+  content: counter(footnote)'. ';
+  font-size: 8pt;
+  vertical-align: none;
+  margin-right: 0pc;
+}
+.footnote::footnote-call {
+  content: counter(footnote);
+  font-size: 8pt;
+  vertical-align: super;
+  display: inline;
+  line-height: 0;
+}
+.siebzig {
+  width: 50%;
+  text-align: center;
+  margin-top: 0em;
+  margin-left: 0em;
+}
+figure figcaption {
+  font-family: "Gentium Basic", serif;
+  margin-top: 5pt;
+  margin-bottom: 0pt;
+  font-style: normal;
+  color: black;
+  text-indent: 0;
+  text-align: center;
+  font-size: 9pt;
+  line-height: 11pt;
+  font-style: none;
+  letter-spacing: 0pt;
+  word-spacing: 1px;
+}
+/* break-before: page; */
+section[data-type="chapter"] {
+  counter-reset: footnote;
+}
+div.dup {
+  display: none;
+}
+div.booktitle {
+  display: none;
+}

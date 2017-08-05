@@ -1,0 +1,67 @@
+INFO : epubtools/modules/create-ops/xpl/create-ops.xpl:223:33:attach-cover: width=831px, height=1623px
+INFO : css-tools/xpl/css.xpl:41:32:External stylesheet 'bootstrap.min.css' 
+(resolved as file:/home/mrc/Github251016/book-coding/bookwork/bootstrap.min.css) not found
+or wrong encoding. Supported encodings: UTF-8, CP1252 (the latter should work for ISO-8859-1, too)
+INFO : css-tools/xpl/css.xpl:41:32:External stylesheet 'mobile.css' 
+(resolved as file:/home/mrc/Github251016/book-coding/bookwork/mobile.css) not found
+or wrong encoding. Supported encodings: UTF-8, CP1252 (the latter should work for ISO-8859-1, too)
+INFO : css-tools/xpl/css.xpl:41:32:External stylesheet 'print.css' 
+(resolved as file:/home/mrc/Github251016/book-coding/bookwork/print.css) not found
+or wrong encoding. Supported encodings: UTF-8, CP1252 (the latter should work for ISO-8859-1, too)
+INFO : epubtools/modules/create-ops/xpl/create-ops.xpl:291:38:
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+EXTRACT FILEREFS FROM HTML SOURCE FILE:
+
+file:/home/mrc/Github251016/book-coding/bookwork/images/cover.png
+https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js
+images/leibniz_3.jpg
+js/bootstrap.min.js
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+INFO : epubtools/modules/html-splitter/xpl/html-splitter.xpl:136:49:Chunk text/cover.xhtml (1 of 9): 2 elements, starting with div
+INFO : epubtools/modules/html-splitter/xpl/html-splitter.xpl:136:49:Chunk text/bookwork_000079.xhtml (2 of 9): 1 element: section
+INFO : epubtools/modules/html-splitter/xpl/html-splitter.xpl:136:49:Chunk text/bookwork_000099.xhtml (3 of 9): 1 element: section
+INFO : epubtools/modules/html-splitter/xpl/html-splitter.xpl:136:49:Chunk text/bookwork_000136.xhtml (4 of 9): 1 element: section
+INFO : epubtools/modules/html-splitter/xpl/html-splitter.xpl:136:49:Chunk text/bookwork_000170.xhtml (5 of 9): 1 element: section
+INFO : epubtools/modules/html-splitter/xpl/html-splitter.xpl:136:49:Chunk text/bookwork_000212.xhtml (6 of 9): 1 element: section
+INFO : epubtools/modules/html-splitter/xpl/html-splitter.xpl:136:49:Chunk text/bookwork_000329.xhtml (7 of 9): 1 element: section
+INFO : epubtools/modules/html-splitter/xpl/html-splitter.xpl:136:49:Chunk text/bookwork_000341.xhtml (8 of 9): 1 element: section
+INFO : epubtools/modules/html-splitter/xpl/html-splitter.xpl:136:49:Chunk text/bookwork_000390.xhtml (9 of 9): 4 elements, starting with section
+INFO : epubtools/modules/html-splitter/xpl/html-splitter.xpl:313:41:[WARNING]: adding the following debug and output file to epub container: file:/home/mrc/Github251016/book-coding/bookwork//epub/OEBPS/styles/cover.css
+INFO : epubtools/modules/html-splitter/xpl/html-splitter.xpl:313:41:[WARNING]: adding the following debug and output file to epub container: file:/home/mrc/Github251016/book-coding/bookwork//epub/OEBPS/styles/epub.css
+INFO : epubtools/modules/html-splitter/xpl/html-splitter.xpl:313:41:[WARNING]: adding the following debug and output file to epub container: file:/home/mrc/Github251016/book-coding/bookwork///epub/OEBPS/toc.ncx
+INFO : epubtools/modules/html-splitter/xpl/html-splitter.xpl:313:41:[WARNING]: adding the following debug and output file to epub container: file:/home/mrc/Github251016/book-coding/bookwork///epub/OEBPS/nav.xhtml
+INFO : epubtools/modules/html-splitter/xpl/html-splitter.xpl:313:41:[WARNING]: adding the following debug and output file to epub container: file:/home/mrc/Github251016/book-coding/bookwork///epub/OEBPS/text/cover.xhtml
+INFO : epubtools/modules/html-splitter/xpl/html-splitter.xpl:313:41:[WARNING]: adding the following debug and output file to epub container: file:/home/mrc/Github251016/book-coding/bookwork///epub/OEBPS/text/bookwork_000079.xhtml
+INFO : epubtools/modules/html-splitter/xpl/html-splitter.xpl:313:41:[WARNING]: adding the following debug and output file to epub container: file:/home/mrc/Github251016/book-coding/bookwork///epub/OEBPS/text/bookwork_000099.xhtml
+INFO : epubtools/modules/html-splitter/xpl/html-splitter.xpl:313:41:[WARNING]: adding the following debug and output file to epub container: file:/home/mrc/Github251016/book-coding/bookwork///epub/OEBPS/text/bookwork_000136.xhtml
+INFO : epubtools/modules/html-splitter/xpl/html-splitter.xpl:313:41:[WARNING]: adding the following debug and output file to epub container: file:/home/mrc/Github251016/book-coding/bookwork///epub/OEBPS/text/bookwork_000170.xhtml
+INFO : epubtools/modules/html-splitter/xpl/html-splitter.xpl:313:41:[WARNING]: adding the following debug and output file to epub container: file:/home/mrc/Github251016/book-coding/bookwork///epub/OEBPS/text/bookwork_000212.xhtml
+INFO : epubtools/modules/html-splitter/xpl/html-splitter.xpl:313:41:[WARNING]: adding the following debug and output file to epub container: file:/home/mrc/Github251016/book-coding/bookwork///epub/OEBPS/text/bookwork_000329.xhtml
+INFO : epubtools/modules/html-splitter/xpl/html-splitter.xpl:313:41:[WARNING]: adding the following debug and output file to epub container: file:/home/mrc/Github251016/book-coding/bookwork///epub/OEBPS/text/bookwork_000341.xhtml
+INFO : epubtools/modules/html-splitter/xpl/html-splitter.xpl:313:41:[WARNING]: adding the following debug and output file to epub container: file:/home/mrc/Github251016/book-coding/bookwork///epub/OEBPS/text/bookwork_000390.xhtml
+WARN : err:SXXP0005:The source document is in no namespace, but the template rules all expect elements in a namespace (Use --suppressXsltNamespaceCheck:on to avoid this warning)
+INFO : epubtools/modules/zip-package/xpl/zip-package.xpl:91:40:
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ COLLECT FILES FOR EPUB PACKAGE:
+
+OEBPS/content.opf
+OEBPS/images/cover.png
+OEBPS/jquery.min.js
+OEBPS/images/leibniz_3.jpg
+OEBPS/js/bootstrap.min.js
+OEBPS/styles/cover.css
+OEBPS/styles/epub.css
+OEBPS/toc.ncx
+OEBPS/nav.xhtml
+OEBPS/text/cover.xhtml
+OEBPS/text/bookwork_000079.xhtml
+OEBPS/text/bookwork_000099.xhtml
+OEBPS/text/bookwork_000136.xhtml
+OEBPS/text/bookwork_000170.xhtml
+OEBPS/text/bookwork_000212.xhtml
+OEBPS/text/bookwork_000329.xhtml
+OEBPS/text/bookwork_000341.xhtml
+OEBPS/text/bookwork_000390.xhtml
+mimetype
+META-INF/container.xml
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~

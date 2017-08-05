@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ncx xmlns="http://www.daisy.org/z3986/2005/ncx/"
+     xmlns:xlink="http://www.w3.org/1999/xlink"
+     version="2005-1"
+     xml:lang="en-US">
+    <head>
+      <meta name="dtb:uid" content="89392383923"/>
+    </head>
+    <docTitle>
+      <text>#psberlin eBook Template</text>
+    </docTitle>
+    <navMap>
+      <navPoint id="i1" class="h1" playOrder="1">
+        <navLabel>
+            <text>Table of Contents</text>
+        </navLabel>
+        <content src="text/bookwork_000079.xhtml#d1036e79"/>
+      </navPoint>
+      <navPoint id="i2" class="h1" playOrder="2">
+        <navLabel>
+            <text>The Open Work</text>
+        </navLabel>
+        <content src="text/bookwork_000099.xhtml#d1036e99"/>
+      </navPoint>
+      <navPoint id="i3" class="h1" playOrder="3">
+        <navLabel>
+            <text>1. Introduction</text>
+        </navLabel>
+        <content src="text/bookwork_000136.xhtml#d1036e136"/>
+      </navPoint>
+      <navPoint id="i4" class="h1" playOrder="4">
+        <navLabel>
+            <text>2. Broken Workflows</text>
+        </navLabel>
+        <content src="text/bookwork_000170.xhtml#d1036e170"/>
+      </navPoint>
+      <navPoint id="i5" class="h1" playOrder="5">
+        <navLabel>
+            <text>References:</text>
+        </navLabel>
+        <content src="text/bookwork_000212.xhtml#d1036e212"/>
+      </navPoint>
+      <navPoint id="i6" class="h1" playOrder="6">
+        <navLabel>
+            <text>Acknowledgements</text>
+        </navLabel>
+        <content src="text/bookwork_000329.xhtml#d1036e329"/>
+      </navPoint>
+      <navPoint id="i7" class="h1" playOrder="7">
+        <navLabel>
+            <text>Copyright</text>
+        </navLabel>
+        <content src="text/bookwork_000341.xhtml#d1036e341"/>
+      </navPoint>
+      <navPoint id="i8" class="h1" playOrder="8">
+        <navLabel>
+            <text>Metadata</text>
+        </navLabel>
+        <content src="text/bookwork_000390.xhtml#d1036e390"/>
+      </navPoint>
+    </navMap>
+  </ncx>
