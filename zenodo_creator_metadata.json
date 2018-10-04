@@ -1,0 +1,27 @@
+{
+  "conceptdoi": "10.5072/zenodo.246030", 
+  "conceptrecid": "246030", 
+    "contributors": [
+      {
+        "affiliation": "Raquel", 
+        "name": "Perez de Eulate", 
+        "type": "Researcher"
+      }
+    ], 
+    "creators": [
+      {
+        "affiliation": "TIB", 
+        "name": "Worthington, Simon", 
+        "orcid": "0000-0002-8579-9717"
+      }, 
+      {
+        "name": "Brown, Laura"
+      }, 
+      {
+        "name": "Vivliostyle"
+      }, 
+      {
+        "name": "Le-tex"
+      }
+    ]
+}
