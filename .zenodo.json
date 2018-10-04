@@ -1,12 +1,126 @@
-{ 
-    "creators": [
-        {
-            "affiliation": "Generation R - exploring new ways to research", 
-            "name": "Simon Worthington"
-        }, 
-        {
-            "name": "Laura Brown"
-        }
+{
+  "conceptdoi": "10.5072/zenodo.246030", 
+  "conceptrecid": "246030", 
+  "created": "2018-10-04T19:15:53.437596+00:00", 
+  "doi": "10.5072/zenodo.246036", 
+  "files": [
+    {
+      "bucket": "067045bc-a31e-413c-8314-eca52c8fc33d", 
+      "checksum": "md5:2981b6635cb74e5501b0349e17d31e17", 
+      "key": "hybrid-publishing-group/book-coding-V1.4.zip", 
+      "links": {
+        "self": "https://sandbox.zenodo.org/api/files/067045bc-a31e-413c-8314-eca52c8fc33d/hybrid-publishing-group/book-coding-V1.4.zip"
+      }, 
+      "size": 85800827, 
+      "type": "zip"
+    }
+  ], 
+  "id": 246036, 
+  "links": {
+    "badge": "https://sandbox.zenodo.org/badge/doi/10.5072/zenodo.246036.svg", 
+    "bucket": "https://sandbox.zenodo.org/api/files/067045bc-a31e-413c-8314-eca52c8fc33d", 
+    "conceptbadge": "https://sandbox.zenodo.org/badge/doi/10.5072/zenodo.246030.svg", 
+    "conceptdoi": "https://doi.org/10.5072/zenodo.246030", 
+    "doi": "https://doi.org/10.5072/zenodo.246036", 
+    "html": "https://sandbox.zenodo.org/record/246036", 
+    "latest": "https://sandbox.zenodo.org/api/records/246036", 
+    "latest_html": "https://sandbox.zenodo.org/record/246036"
+  }, 
+  "metadata": {
+    "access_right": "open", 
+    "access_right_category": "success", 
+    "contributors": [
+      {
+        "affiliation": "Raquel", 
+        "name": "Perez de Eulate", 
+        "type": "Researcher"
+      }
     ], 
-    "access_right": "open"
+    "creators": [
+      {
+        "affiliation": "TIB", 
+        "name": "Worthington, Simon", 
+        "orcid": "0000-0002-8579-9717"
+      }, 
+      {
+        "name": "Brown, Laura"
+      }, 
+      {
+        "name": "Vivliostyle"
+      }, 
+      {
+        "name": "Le-tex"
+      }
+    ], 
+    "description": "<p>FOSS multiformat typesetting from HTML to paginated media types: PDF, eBook, responsive web. Session 1 - Outline 19.7.17</p>\n\n<ul>\n\t<li>class objective:\n\t<ul>\n\t\t<li>make a PDF book for A6 pamphlet (self covers), impositioned on A4</li>\n\t\t<li>use XHTML/CSS template to learn book coding basics</li>\n\t\t<li>use Vivliostyle in-browser PDF rendering</li>\n\t</ul>\n\t</li>\n\t<li>course objective:\n\t<ul>\n\t\t<li>make PDF book, eBook, Bootstrap alternative W3.CSS and GitHub-pages web book</li>\n\t\t<li>use GitHub as collaborative workspace</li>\n\t\t<li>metadata</li>\n\t\t<li>book design</li>\n\t</ul>\n\t</li>\n\t<li>class resources: XHTML/CSS template download, Chrome browser, Vivliostyle, Transpect, Atom text editor, GitHub</li>\n</ul>", 
+    "doi": "10.5072/zenodo.246036", 
+    "keywords": [
+      "publishing, paged media, vivliostyle, transpect"
+    ], 
+    "language": "eng", 
+    "license": {
+      "id": "CC-BY-SA-4.0"
+    }, 
+    "notes": "A 2017 prototype lesson", 
+    "publication_date": "2018-10-04", 
+    "related_identifiers": [
+      {
+        "identifier": "https://github.com/hybrid-publishing-group/book-coding/tree/V1.4", 
+        "relation": "isSupplementTo", 
+        "scheme": "url"
+      }, 
+      {
+        "identifier": "10.5072/zenodo.246030", 
+        "relation": "isVersionOf", 
+        "scheme": "doi"
+      }
+    ], 
+    "relations": {
+      "version": [
+        {
+          "count": 2, 
+          "index": 1, 
+          "is_last": true, 
+          "last_child": {
+            "pid_type": "recid", 
+            "pid_value": "246036"
+          }, 
+          "parent": {
+            "pid_type": "recid", 
+            "pid_value": "246030"
+          }
+        }
+      ]
+    }, 
+    "resource_type": {
+      "title": "Software", 
+      "type": "software"
+    }, 
+    "subjects": [
+      {
+        "identifier": "https://labs.tib.eu/skosmos/opensciencetaxonomy/en/page/?uri=https%3A%2F%2Fonto.tib.eu%2Fost%2FPublishingSystems", 
+        "scheme": "url", 
+        "term": "Publishing system"
+      }
+    ], 
+    "title": "hybrid-publishing-group/book-coding: Silver Hare Hill Top", 
+    "version": "V1.4"
+  }, 
+  "owners": [
+    13062
+  ], 
+  "revision": 3, 
+  "stats": {
+    "downloads": 0.0, 
+    "unique_downloads": 0.0, 
+    "unique_views": 0.0, 
+    "version_downloads": 0.0, 
+    "version_unique_downloads": 0.0, 
+    "version_unique_views": 1.0, 
+    "version_views": 8.0, 
+    "version_volume": 0.0, 
+    "views": 0.0, 
+    "volume": 0.0
+  }, 
+  "updated": "2018-10-04T19:56:13.934318+00:00"
 }
