@@ -11,12 +11,5 @@
       "affiliation": "", 
       "name": "Brown, Laura"
     }
-  ], 
-  "datePublished": "2018-10-04", 
-  "description": "<p>Templates for testing out combination of Transpect and Vivliostyle software for paginated layouts, PDf for POD and eBook with EPUB and KF8</p>", 
-  "identifier": "https://doi.org/10.5072/zenodo.246031", 
-  "license": "", 
-  "name": "hybrid-publishing-group/book-coding: Silver Hare", 
-  "url": "https://sandbox.zenodo.org/record/246031", 
-  "version": "v1.0"
+  ]
 }
