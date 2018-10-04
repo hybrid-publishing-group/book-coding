@@ -1,6 +1,9 @@
 # book-coding
 Book coding course details http://berlin.publishing-school.net/css-books
 
+[![DOI](https://sandbox.zenodo.org/badge/97316652.svg)](https://sandbox.zenodo.org/badge/latestdoi/97316652)
+
+
 Each class sits a seperate module, so you can attend single classes.
 
 ## Session 1 - Outline 19.7.17
