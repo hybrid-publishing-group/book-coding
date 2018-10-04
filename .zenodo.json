@@ -1,15 +1,30 @@
 {
-  "creator": [
-    {
-      "@type": "Person", 
-      "affiliation": "TIB", 
-      "name": "Worthington, Simon",
-      "orcid": "0000-0002-8579-9717"
-    }, 
-    {
-      "@type": "Person", 
-      "affiliation": "", 
-      "name": "Brown, Laura"
-    }
-  ]
+    "description": "<p>Templates for testing out combination of Transpect and Vivliostyle software for paginated layouts, PDf for POD and eBook with EPUB and KF8</p>", 
+    "license": "other-open", 
+    "title": "hybrid-publishing-group/book-coding: Silver Hare", 
+    "version": "v1.0", 
+    "upload_type": "software", 
+    "publication_date": "2018-10-04", 
+    "creators": [
+        {
+            "affiliation": "Generation R - exploring new ways to research", 
+            "name": "Simon Worthington"
+        }, 
+        {
+            "name": "Laura Brown"
+        }
+    ], 
+    "access_right": "open", 
+    "related_identifiers": [
+        {
+            "scheme": "url", 
+            "identifier": "https://github.com/hybrid-publishing-group/book-coding/tree/v1.0", 
+            "relation": "isSupplementTo"
+        }, 
+        {
+            "scheme": "doi", 
+            "identifier": "10.5072/zenodo.246030", 
+            "relation": "isVersionOf"
+        }
+    ]
 }
